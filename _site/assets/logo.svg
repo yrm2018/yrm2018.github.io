@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3039"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   width="612"
+   height="605"
+   sodipodi:docname="logo2.png">
+  <metadata
+     id="metadata3045">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3043" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="980"
+     id="namedview3041"
+     showgrid="false"
+     inkscape:zoom="1.292562"
+     inkscape:cx="483.84242"
+     inkscape:cy="279.61588"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3039" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#2581bc;fill-opacity:1;fill-rule:nonzero"
+     id="path3049"
+     sodipodi:cx="305.20779"
+     sodipodi:cy="302.88684"
+     sodipodi:rx="305.98145"
+     sodipodi:ry="302.88684"
+     d="m 611.18924,302.88684 a 305.98145,302.88684 0 1 1 -611.96289112,0 305.98145,302.88684 0 1 1 611.96289112,0 z"
+     transform="matrix(1,0,0,0.99872282,0.77365112,2.6620625e-5)" />
+  <text
+     xml:space="preserve"
+     style="font-size:300px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:12px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Serif;-inkscape-font-specification:Droid Serif Bold"
+     x="11.245533"
+     y="388.82867"
+     id="text3051"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3053"
+       x="11.245533"
+       y="388.82867"
+       style="font-size:300px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;letter-spacing:12px;fill:#ffffff;fill-opacity:1;font-family:Droid Serif;-inkscape-font-specification:Droid Serif Bold">Y M</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:300px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Serif;-inkscape-font-specification:Droid Serif Bold"
+     x="165.53836"
+     y="463.87338"
+     id="text3011"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3013"
+       x="165.53836"
+       y="463.87338"
+       style="font-size:300px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;fill-opacity:1;font-family:Droid Serif;-inkscape-font-specification:Droid Serif Bold">R</tspan></text>
+</svg>

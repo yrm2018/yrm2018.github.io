@@ -1,0 +1,6 @@
+---
+layout: post
+title: "Welcome to the homepage of YRM 2018"
+---
+
+More information coming soon...
