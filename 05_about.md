@@ -9,13 +9,14 @@ permalink: /about/
 **The ETSF Young researchers' Meeting (YRM)** is a series of conferences held
 annually under the auspices of the European Theoretical Spectroscopy Facility
 (ETSF). It brings together young scientists working in the field of
-theoretical spectrosopy to discuss problems and recent advances in method
+ab-initio research to discuss problems and recent advances in method
 development, algorithms and implementations as well as applications to real
 materials.
 All young researchers without permanent contracts, i.e. postdocs, PhD students and
 Master students, are invited to apply through this web-page and submit an
 abstract for a poster or an oral contribution.
 
+**Dont we repeat ourselves here?**
 The talks are divided into thematic sessions. In order to make them accessible
 even to students working on different areas, every session is opened by a
 keynote speaker who will try to give a broad and didactic introduction to the theory
@@ -24,7 +25,7 @@ He/she also points to current challenges, thus providing pointers to successive
 talks of the session.
 
 In order to give young scientists opportunity to discover research in the
-private sector, it is tradition to dedicate one day to presentations from
+private sector, it is tradition to dedicate one session to presentations from
 industrial researchers. This gives attendees a unique opportunity to compare
 the research activity in the two domains, to structure their career and to
 envisage outreach collaborations.
