@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-12T09:23:12+01:00</updated><id>http://localhost:4000/</id><title type="html">YRM 2018</title><subtitle>hello A simple yet classy theme for your Jekyll website or blog.</subtitle><entry><title type="html">Welcome to the homepage of YRM 2018</title><link href="http://localhost:4000/2017/10/04/welcome.html" rel="alternate" type="text/html" title="Welcome to the homepage of YRM 2018" /><published>2017-10-04T00:00:00+02:00</published><updated>2017-10-04T00:00:00+02:00</updated><id>http://localhost:4000/2017/10/04/welcome</id><content type="html" xml:base="http://localhost:4000/2017/10/04/welcome.html">&lt;p&gt;The Young Researchers’ Meeting (YRM) of the European Theoretical 
+Spectroscopy Facility (ETSF) is an annual conference organized and 
+attended exclusively by researchers without permanent position that 
+work on state-of-the-art theoretical and computational methods for the 
+study of electronic and optical properties of materials.&lt;/p&gt;
+
+&lt;p&gt;It gives young researchers the chance to present their work, to learn 
+novel techniques, to exchange ideas, and to start new collaborations. 
+But more importantly, the YRM gives participants the possibility 
+to be part of a conference without the usual strong gradient of knowledge 
+and experience.&lt;/p&gt;
+
+&lt;p&gt;We take the efforts of organizing such an event mainly 
+because we think that it is a unique experience and as much young 
+scientists as possible should have the chance to be part of it.&lt;/p&gt;
+
+&lt;p&gt;The YRM 2018 will be held from June 4-8 at the CFEL in Hamburg, Germany, 
+and will host five topical sessions&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt; Old and new approaches towards material design&lt;/li&gt;
+&lt;li&gt; Theoretical spectroscopy    &lt;/li&gt;
+&lt;li&gt; Modelling properties of complex systems &lt;/li&gt;
+&lt;li&gt; Strongly Correlated Electrons, Magnetism, and Topological Phases of 
+Matter &lt;/li&gt;
+&lt;li&gt; Fermion-boson systems in and out of equilibrium &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;We start with common ab initio topics, namely ground state structure (Session I) and excited state structure (Session II) of atomic, molecular and solid state systems. We continue with properties of complex systems (Session III) and exotic states of matter (Session IV and V). Every session will be introduced by a postdoc-level expert, who will provide a bird’s-eye view on the topic itself and point out the connections between the different sessions. Thus, it will be easier for participants to not only relate their own work to their field of research but also to locate it in the bigger picture of ab initio research.&lt;/p&gt;
+
+&lt;p&gt;Keynote talks at the beginning of each session give the participants an overview of the field, introducing the theoretical framework, state-of-the-art methods and open questions.&lt;/p&gt;
+
+&lt;p&gt;In addition to the scientific sessions, the meeting will include a session on the future of scientific publishing with representatives from the newly founded SciPost and Quantum non-profit journals as well as one day dedicated to talks by researchers from the private sector, who will share their experience of working in a non-academic setting.&lt;/p&gt;</content><author><name></name></author><summary type="html">The Young Researchers’ Meeting (YRM) of the European Theoretical Spectroscopy Facility (ETSF) is an annual conference organized and attended exclusively by researchers without permanent position that work on state-of-the-art theoretical and computational methods for the study of electronic and optical properties of materials.</summary></entry></feed>
