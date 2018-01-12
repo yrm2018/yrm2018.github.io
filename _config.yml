@@ -54,64 +54,68 @@ permalink: "/blog/:title"
 # rightNavigationButtons:
 #  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 
-# # Hero Block
-heroImage: "hero.jpg"
-# heroTitle: "GDG DevFest <typeout> 2014"
-# eventDate: "September - November, 2014"
+# Hero Block
+heroImage: "hero2.jpg"
+heroTitle: "The 15th ETSF Young Researchers' Meeting"
+eventDate: "June 4 - June 8, 2018, Hamburg, Germany"
 # typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
 # typeoutFallback: "Season"
 # heroButtons:
 #  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 #  - {permalink: "/#tickets", text: "Buy tickets"}
 
-# # About Block
-# aboutTitle: "About GDG DevFest"
-# aboutBlock:
-#  - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
-#  - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
-#  - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
+# About Block
+aboutTitle: "About Young Researchers' Meeting"
+aboutText: "The Young Researchers’ Meeting (YRM) of the European Theoretical Spectroscopy Facility (ETSF) is an annual conference organized and attended exclusively by researchers without permanent position that work on state-of-the-art theoretical and computational methods for the study of electronic and optical properties of materials."
+aboutBlock:
+ - {title: "Conference", image: "conference.jpg", text: "Invited speakers from everywhere" }
+ - {title: "Industry Session", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
+ - {title: "Poster Session", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
+ - {title: "Get together", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" } 
+ - {title: "Scientific Speed Dating", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
+ - {title: "Get together", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }  
 
-# # Statistic Block
-# statisticBlockImage: "statistic.jpg"
-# statisticBlock:
-#  - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
-#  - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
-#  - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
-#  - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
+# Statistic Block
+statisticBlockImage: "statistic.jpg"
+statisticBlock:
+ - {count: "70", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
+ - {count: "5", specialCharacter: "", info: "session", detail: "of pure physics"}
+ - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
+ - {count: "5", specialCharacter: "", info: "free meals", detail: "plus entertainment lounge"}
 
-# # Latest News Block
-# latestNewsTitle: "Latest news"
+# Latest News Block
+latestNewsTitle: "Latest news"
 
-# # Rockstar Speakers Block
-# rockstarSpeakersImage: "rockstar-speakers.jpg"
-# rockstarSpeakersCount: 4
-# rockstarSpeakersTitle: "Rockstar speakers"
-# rockstarSpeakersButtonText: "See all speakers"
+# Rockstar Speakers Block
+rockstarSpeakersImage: "rockstar-speakers.jpg"
+rockstarSpeakersCount: 6
+rockstarSpeakersTitle: "Invited speakers"
+rockstarSpeakersButtonText: "See all speakers"
 
-# # Location Block
-# locationBlockTitle: "Location"
-# eventLocationName: "Conference Hall"
-# eventLocationLink: "http://cabinet.kinopalace.lviv.ua/showtimes/"
-# eventStreetAddress: "22 Teatral'na St"
-# eventAddressLocality: "Lviv"
-# eventAddressLocalityRegion: "Lvivska"
-# eventPostalCode: "79000"
-# eventAddressCountry: "Ukraine"
-# eventStartTime: "2014-10-25T10:00"
-# eventDoorTime: "09:00"
-# eventEndTime: "2014-10-25T20:00"
-# eventPlaceCoordinates: "49.843237, 24.028751"
-# mapCenterCoordinates: "49.842537, 24.025701"
-# mapMobileCenterCoordinates: "49.841620, 24.029411"
+# Location Block
+locationBlockTitle: "Center for Free-Electron Laser Science"
+eventLocationName: "Hamburg"
+eventLocationLink: "https://www.cfel.de/"
+eventStreetAddress: "Luruper Chaussee 175"
+eventAddressLocality: "Hamburg"
+eventAddressLocalityRegion: "hamburg"
+eventPostalCode: "22761"
+eventAddressCountry: "Germany"
+eventStartTime: "2018-07-4T09:00"
+eventDoorTime: "08:00"
+eventEndTime: "2018-07-8T14:00"
+eventPlaceCoordinates: "53.57888025, 9.88483541"
+mapCenterCoordinates: "53.57888025, 9.88483541"
+mapMobileCenterCoordinates: "53.57888025, 9.88483541"
 
-# # Venue Block
-# venueBlockTitle: "Venue"
-# venueBigImage: "venue_0.jpg"
-# venueSmallImage1: "venue_1.jpg"
-# venueSmallImage2: "venue_2.jpg"
-# venueSmallImage3: "venue_3.jpg"
-# venueTitle: "Kinopalace Cinema"
-# venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+# Venue Block
+venueBlockTitle: "Venue"
+venueBigImage: "cfel_front.jpg"
+venueSmallImage1: "cfel_inside_1.jpg"
+venueSmallImage2: "cfel_inside_2.jpg"
+venueSmallImage3: "cfel_inside_2.jpg"
+venueTitle: "Kinopalace Cinema"
+venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
 
 # # # Tweets Feed Block
 # # tweetsFeedImage: "twitter-feed.jpg"
@@ -119,10 +123,9 @@ heroImage: "hero.jpg"
 # # twitterHashTag: "devfest"
 # # twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
-# # Partners Block
-# organizersTitle: "Organizers"
-# partnersTitle: "Partners"
-# partnersC4sponsorsButton: "Become a sponsor"
+# Partners Block
+organizersTitle: "Organizers"
+partnersTitle: "Partners"
 
 # # Subscribe Block
 # subscribeImage: "subscribe.jpg"
@@ -172,26 +175,23 @@ heroImage: "hero.jpg"
 #   soldOut: true
 #   soldOutText: "Sold Out"
 
-# # Footer
-# socialLinks:
-#  - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
-#  - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
-#  - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
-#  - {permalink: "/feed.xml", icon: "rss"}
-# footerBlocks:
-#  -
-#   title: "Links"
-#   links:
-#    - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
-#    - {link: "https://developers.google.com", text: "Google Developers"}
-#  -
-#   title: "Contacts"
-#   links:
-#    - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
-#  -
-#   title: "FAQ"
-#   links:
-#    - {permalink: "/cod/", text: "Code of Conduct"}
+# Footer
+socialLinks:
+ - {permalink: "/feed.xml", icon: "rss"}
+footerBlocks:
+ -
+  title: "Links"
+  links:
+   - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
+   - {link: "https://developers.google.com", text: "Google Developers"}
+ -
+  title: "Contacts"
+  links:
+   - {link: "mailto:yrm2018@mpsd.mpg.com", text: "yrm2018@mpsd.mpg.com"}
+ -
+  title: "FAQ"
+  links:
+   - {permalink: "/cod/", text: "Code of Conduct"}
 
 # # Blog
 # blogTitle: "Latest news"
