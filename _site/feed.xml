@@ -1,33 +1,124 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/yrm2018.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/yrm2018.github.io/" rel="alternate" type="text/html" /><updated>2018-01-12T09:47:44+01:00</updated><id>http://localhost:4000/yrm2018.github.io/</id><title type="html">YRM 2018</title><subtitle>hello A simple yet classy theme for your Jekyll website or blog.</subtitle><entry><title type="html">Welcome to the homepage of YRM 2018</title><link href="http://localhost:4000/yrm2018.github.io/2017/10/04/welcome.html" rel="alternate" type="text/html" title="Welcome to the homepage of YRM 2018" /><published>2017-10-04T00:00:00+02:00</published><updated>2017-10-04T00:00:00+02:00</updated><id>http://localhost:4000/yrm2018.github.io/2017/10/04/welcome</id><content type="html" xml:base="http://localhost:4000/yrm2018.github.io/2017/10/04/welcome.html">&lt;p&gt;The Young Researchers’ Meeting (YRM) of the European Theoretical 
-Spectroscopy Facility (ETSF) is an annual conference organized and 
-attended exclusively by researchers without permanent position that 
-work on state-of-the-art theoretical and computational methods for the 
-study of electronic and optical properties of materials.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GDG DevFest Season 2014</title>
+    <description>GDG DevFest is a set of events all around the world</description>
+    <link>http://localhost:4000/yrm2018.github.io/</link>
+    <atom:link href="http://localhost:4000/yrm2018.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Call for Papers</title>
+        <description>&lt;p&gt;GDG DevFest Ukraine 2014 will be held 24-25th of October in ancient city of Lviv. If you want to be part of this great event as a speaker you knocked at the good door.&lt;/p&gt;
 
-&lt;p&gt;It gives young researchers the chance to present their work, to learn 
-novel techniques, to exchange ideas, and to start new collaborations. 
-But more importantly, the YRM gives participants the possibility 
-to be part of a conference without the usual strong gradient of knowledge 
-and experience.&lt;/p&gt;
+&lt;h4 id=&quot;presenters--who-should-speak-at-the-devfest-conference&quot;&gt;Presenters – who should speak at the DevFest Conference?&lt;/h4&gt;
 
-&lt;p&gt;We take the efforts of organizing such an event mainly 
-because we think that it is a unique experience and as much young 
-scientists as possible should have the chance to be part of it.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;developers (freelance and hired)&lt;/li&gt;
+  &lt;li&gt;companies developing software (apps, tools, frameworks etc.)&lt;/li&gt;
+  &lt;li&gt;research institutions with Google relevant activities&lt;/li&gt;
+  &lt;li&gt;companies, organisations and individuals using Google technologies&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;The YRM 2018 will be held from June 4-8 at the CFEL in Hamburg, Germany, 
-and will host five topical sessions&lt;/p&gt;
+&lt;p&gt;If you belong to one of those groups you are cordially invited to submit a talk proposal (or a number of proposals). An independent program committee assesses the proposals and selects the actual conference talks.&lt;br /&gt;&lt;/p&gt;
 
-&lt;ol&gt;
-&lt;li&gt; Old and new approaches towards material design&lt;/li&gt;
-&lt;li&gt; Theoretical spectroscopy    &lt;/li&gt;
-&lt;li&gt; Modelling properties of complex systems &lt;/li&gt;
-&lt;li&gt; Strongly Correlated Electrons, Magnetism, and Topological Phases of 
-Matter &lt;/li&gt;
-&lt;li&gt; Fermion-boson systems in and out of equilibrium &lt;/li&gt;
-&lt;/ol&gt;
+&lt;h4 id=&quot;themes-and-topics--what-do-we-expect&quot;&gt;Themes and topics – what do we expect?&lt;/h4&gt;
+&lt;p&gt;Our team prepared set of interesting topics in but if you have any cool idea you want to share not from this list, feel free to submit it as well.&lt;/p&gt;
 
-&lt;p&gt;We start with common ab initio topics, namely ground state structure (Session I) and excited state structure (Session II) of atomic, molecular and solid state systems. We continue with properties of complex systems (Session III) and exotic states of matter (Session IV and V). Every session will be introduced by a postdoc-level expert, who will provide a bird’s-eye view on the topic itself and point out the connections between the different sessions. Thus, it will be easier for participants to not only relate their own work to their field of research but also to locate it in the bigger picture of ab initio research.&lt;/p&gt;
+&lt;h5 id=&quot;android&quot;&gt;Android&lt;/h5&gt;
 
-&lt;p&gt;Keynote talks at the beginning of each session give the participants an overview of the field, introducing the theoretical framework, state-of-the-art methods and open questions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Google I/O 2014&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;In addition to the scientific sessions, the meeting will include a session on the future of scientific publishing with representatives from the newly founded SciPost and Quantum non-profit journals as well as one day dedicated to talks by researchers from the private sector, who will share their experience of working in a non-academic setting.&lt;/p&gt;</content><author><name></name></author><summary type="html">The Young Researchers’ Meeting (YRM) of the European Theoretical Spectroscopy Facility (ETSF) is an annual conference organized and attended exclusively by researchers without permanent position that work on state-of-the-art theoretical and computational methods for the study of electronic and optical properties of materials.</summary></entry></feed>
+&lt;ul&gt;
+  &lt;li&gt;Material Design&lt;/li&gt;
+  &lt;li&gt;Migration to ART&lt;/li&gt;
+  &lt;li&gt;New Android Camera API&lt;/li&gt;
+  &lt;li&gt;New Job Scheduler&lt;/li&gt;
+  &lt;li&gt;Storage Access Framework&lt;/li&gt;
+  &lt;li&gt;Elevation &amp;amp; Clipping&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;General&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Android Continuous Integration&lt;/li&gt;
+  &lt;li&gt;Loaders, Cursor Adapters&lt;/li&gt;
+  &lt;li&gt;Android Animations&lt;/li&gt;
+  &lt;li&gt;Patterns in Android development&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;web&quot;&gt;Web&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;AngularJS (1x and 2.0)&lt;/li&gt;
+  &lt;li&gt;Dart (AngularDart, server-side)&lt;/li&gt;
+  &lt;li&gt;Polymer and WebComponents&lt;/li&gt;
+  &lt;li&gt;Material Design in Web&lt;/li&gt;
+  &lt;li&gt;ChromeOS (apps development)&lt;/li&gt;
+  &lt;li&gt;Web Performance (tools, techniques, approaches)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;cloud&quot;&gt;Cloud&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Google Cloud Platform
+    &lt;ul&gt;
+      &lt;li&gt;Compute Engine&lt;/li&gt;
+      &lt;li&gt;App Engine&lt;/li&gt;
+      &lt;li&gt;Storages (SQL, NoSQL, BigData)&lt;/li&gt;
+      &lt;li&gt;APIs&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Go (as a language for a Cloud Ready Apps)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;please-submit-your-proposals-here&quot;&gt;Please submit your proposals &lt;a href=&quot;http://bit.ly/dfua-c4p&quot;&gt;here&lt;/a&gt;.&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Deadline&lt;/strong&gt; is September 1, 2014&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Please note:&lt;/strong&gt; There is no guarantee that a submission will be put onto the conference agenda!&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The program committee picks the most interesting talk proposals and informs the selected submitters until September 15, 2014.&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;any-questions&quot;&gt;Any questions?&lt;/h4&gt;
+&lt;p&gt;Email organizers at &lt;a href=&quot;mailto:devfest@gdg.org.ua&quot;&gt;devfest@gdg.org.ua&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 21 Jul 2014 11:00:00 +0200</pubDate>
+        <link>http://localhost:4000/yrm2018.github.io/blog/call-for-papers</link>
+        <guid isPermaLink="true">http://localhost:4000/yrm2018.github.io/blog/call-for-papers</guid>
+      </item>
+    
+      <item>
+        <title>Hello World!</title>
+        <description>&lt;p&gt;We’re very excited - not just because of the inordinate amount of caffeine based products consumed - 
+but also because our team are putting together 
+the final missing parts to the biggest Google related event in Ukraine - &lt;a href=&quot;http://devfest.gdg.org.ua/&quot;&gt;GDG DevFest 2014&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This year event will take place in cultural capital of Ukraine - Lviv. Being a unique European city in Ukraine, Lviv is among top 10 cities of the world to visit in 2014 according to the travel group “The Rough Guide” and is among top 10 cities for spending weekends in Europe according to Lonely Planet. So take your time to spend weeked in last hidden gem in the Europe in company of experts and technical geeks.&lt;/p&gt;
+
+&lt;p&gt;So should you also be excited? Well yes… and here’s why!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Attendance&lt;/strong&gt;: we’re expecting over 350 attendees&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Topic&lt;/strong&gt;: more than 48 hours of pure Google technologies&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Date&lt;/strong&gt;: 24-25 of October, expect hackathon and workshops on a first day and conference on the second&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Venue&lt;/strong&gt;: Kinopalace Cinema - for a first time we’ll make technical event in real cinema directly in the heart of the ancient city of Lviv&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Speakers&lt;/strong&gt;: we’re in the process of finalising the list of speakers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;but we’ve already secured a first batch of experts:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Dawid Ostrowski&lt;/strong&gt; - Developer Relation from Google, who excited about cloud technologies&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Mateusz Herych&lt;/strong&gt; - Android GDE and GDG organizer from Krakow&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Dmytro Danylyk&lt;/strong&gt; - developer, blogger, speaker, author of open source 1000+ star libraries &lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Roman Mazur&lt;/strong&gt; - speaker on various international conferences like Droidcon Eastern Europe and Ankara Developer Days&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;More details about speakers, DevFest Hackathon and Lviv will appear in subsequent posts, meantime like us on &lt;a href=&quot;https://facebook.com/GDGLviv&quot;&gt;Facebook&lt;/a&gt;, follow on &lt;a href=&quot;https://twitter.com/intent/user?screen_name=GDGLviv&quot;&gt;Twitter&lt;/a&gt;, add to circles in &lt;a href=&quot;https://plus.google.com/b/102444623953913144164&quot;&gt;Google+&lt;/a&gt; or subcribe to our &lt;a href=&quot;http://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;amp;id=ae0fb459fc&quot;&gt;mailing list&lt;/a&gt; and &lt;a href=&quot;http://devfest.gdg.org.ua/feed.xml&quot;&gt;RSS feed&lt;/a&gt; in order not to miss any cool stuff about festival.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 21 Jul 2014 10:00:00 +0200</pubDate>
+        <link>http://localhost:4000/yrm2018.github.io/blog/hello-world</link>
+        <guid isPermaLink="true">http://localhost:4000/yrm2018.github.io/blog/hello-world</guid>
+      </item>
+    
+  </channel>
+</rss>
