@@ -10,9 +10,9 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "GDG DevFest Season 2014"
-email: "devfest@gdg.org.ua"
-description: "GDG DevFest is a set of events all around the world"
+title: "ETSF Young Researchers' Meeting 2018"
+email: "yrm2018@mpsd.mpg.com"
+description: "The Young Researchers’ Meeting (YRM) of the European Theoretical Spectroscopy Facility (ETSF) is an annual conference organized and attended exclusively by researchers without permanent position that work on state-of-the-art theoretical and computational methods for the study of electronic and optical properties of materials."
 baseurl: "/yrm2018.github.io"
 url: "https://lfrahm.github.io"
 permalink: "/blog/:title"
@@ -40,14 +40,14 @@ permalink: "/blog/:title"
 # c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 
 
-# # Navigation
-# navigationLinks:
-#  - {permalink: "/", text: "Home"}
-#  - {permalink: "/blog/", text: "Blog"}
-#  - {permalink: "/schedule/", text: "Schedule"}
-#  - {permalink: "/speakers/", text: "Speakers"}
-#  - {permalink: "/team/", text: "Team"}
-#  - {permalink: "/logistics/", text: "Logistics"}
+# Navigation
+navigationLinks:
+ - {permalink: "/", text: "Home"}
+ - {permalink: "/blog/", text: "Blog"}
+ - {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/speakers/", text: "Speakers"}
+ - {permalink: "/team/", text: "Team"}
+ - {permalink: "/registration/", text: "Registration"} 
 #  - {permalink: "/hackathon/", text: "Hackathon"}
 # bottomNavigationLinks:
 #  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
@@ -78,10 +78,10 @@ aboutBlock:
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "70", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
- - {count: "5", specialCharacter: "", info: "session", detail: "of pure physics"}
+ - {count: "70", specialCharacter: "+", info: "attendees", detail: "only PHd students and young post docs"}
+ - {count: "5", specialCharacter: "", info: "session", detail: "of pure Physics"}
  - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
- - {count: "5", specialCharacter: "", info: "free meals", detail: "plus entertainment lounge"}
+ - {count: "5", specialCharacter: "", info: "meals included", detail: "plus lots of social events"}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
@@ -110,12 +110,12 @@ mapMobileCenterCoordinates: "53.57888025, 9.88483541"
 
 # Venue Block
 venueBlockTitle: "Venue"
-venueBigImage: "cfel_front.jpg"
-venueSmallImage1: "cfel_inside_1.jpg"
+venueBigImage: "cfel_inside_1.jpg"
+venueSmallImage1: "cfel_front.jpg"
 venueSmallImage2: "cfel_inside_2.jpg"
 venueSmallImage3: "cfel_inside_2.jpg"
-venueTitle: "Kinopalace Cinema"
-venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+venueTitle: "Center for Free-Electron Laser Science"
+venueFeatures: ["3 conference rooms", "Plenty of space for socializing", "Located at the science campus Bahrenfeld"]
 
 # # # Tweets Feed Block
 # # tweetsFeedImage: "twitter-feed.jpg"

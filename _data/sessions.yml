@@ -1,4 +1,49 @@
 -
+  id: 101
+  title: "Welcome"
+  place: "Some place to meet"
+  service: true
+  description: "First get together and meeting new people"
+-
+  id: 201
+  title: "Registration"
+  place: "CFEL"
+  service: true
+  description: "Register for the event"
+-
+  id: 202
+  title: "Introduction"
+  place: "CFEL"
+  subtype: presentation
+  speakers: [3]
+  description: "An introduction into the field"
+-
+  id: 203
+  title: "Session 1: Old and new approaches towards material design"
+  place: "CFEL"
+  subtype: workshop
+  speakers: [4]
+  description: "An introduction into the field"
+-
+  id: 204
+  title: "Lunch Break"
+  place: "CFEL"
+  subtype: workshop
+  speakers: [4]
+  description: "An introduction into the field"
+-
+  id: 205
+  title: "Session 1: Old and new approaches towards material design. Continued"
+  place: "CFEL"
+  subtype: workshop
+  description: "An introduction into the field"
+-
+  id: 206
+  title: "Harbour Tour"
+  place: "CFEL"
+  subtype: workshop
+  description: "An introduction into the field"
+-
   id: 307
   title: "Coffee Break"
   place: "Hall"
