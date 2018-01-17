@@ -65,7 +65,7 @@ eventDate: "June 4 - June 8, 2018, Hamburg, Germany"
 #  - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
-aboutTitle: "About Young Researchers' Meeting"
+aboutTitle: "About the Young Researchers' Meeting"
 aboutText: "The Young Researchers’ Meeting (YRM) of the European Theoretical Spectroscopy Facility (ETSF) is an annual conference organized and attended exclusively by researchers without permanent position that work on state-of-the-art theoretical and computational methods for the study of electronic and optical properties of materials."
 aboutBlock:
  - {title: "Conference", image: "conference_2.jpg", text: "Speakers from the theoretical spectroscopy community" }
