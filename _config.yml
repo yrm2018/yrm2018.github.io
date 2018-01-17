@@ -43,9 +43,9 @@ permalink: "/blog/:title"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/blog/", text: "Blog"}
+ - {permalink: "/programme/", text: "Programme"}
  - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Speakers"}
+ - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/team/", text: "Team"}
  - {permalink: "/registration/", text: "Registration"} 
 #  - {permalink: "/hackathon/", text: "Hackathon"}
@@ -68,26 +68,26 @@ eventDate: "June 4 - June 8, 2018, Hamburg, Germany"
 aboutTitle: "About Young Researchers' Meeting"
 aboutText: "The Young Researchers’ Meeting (YRM) of the European Theoretical Spectroscopy Facility (ETSF) is an annual conference organized and attended exclusively by researchers without permanent position that work on state-of-the-art theoretical and computational methods for the study of electronic and optical properties of materials."
 aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "Invited speakers from everywhere" }
- - {title: "Industry Session", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
- - {title: "Poster Session", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
- - {title: "Get together", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" } 
- - {title: "Scientific Speed Dating", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
- - {title: "Get together", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }  
+ - {title: "Conference", image: "conference_2.jpg", text: "Speakers from the theoretical spectroscopy community" }
+ - {title: "Industry Session", image: "research.jpg", text: "Invited companies will present their ideas and give an insight into industrial research." }
+ - {title: "Poster Session", image: "poster.jpg", text: "Have discussions and learn new perspective in a one-to-one manner." }
+ - {title: "Open Session", image: "open_session.jpg", text: "Talk about what really boosted your daily routine and you want other people to know." } 
+ - {title: "Scientific Speed Dating", image: "romantic.jpg", text: "Explean your work to others and hear what they do in five minutes." }
+ - {title: "Get together", image: "harbour.jpg", text: "Meet the community and find new collaborators during the breaks or one of the many social events." }  
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "70", specialCharacter: "+", info: "attendees", detail: "only PHd students and young post docs"}
- - {count: "5", specialCharacter: "", info: "session", detail: "of pure Physics"}
- - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
+ - {count: "70", specialCharacter: "+", info: "attendees", detail: "PHd students and young post docs"}
+ - {count: "7", specialCharacter: "", info: "session", detail: "of Physics and beyond"}
+ - {count: "7", specialCharacter: "", info: "invited speakers", detail: "from all around the world"}
  - {count: "5", specialCharacter: "", info: "meals included", detail: "plus lots of social events"}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
 
 # Rockstar Speakers Block
-rockstarSpeakersImage: "rockstar-speakers.jpg"
+rockstarSpeakersImage: "invited_speakers.jpg"
 rockstarSpeakersCount: 6
 rockstarSpeakersTitle: "Invited speakers"
 rockstarSpeakersButtonText: "See all speakers"
@@ -98,7 +98,7 @@ eventLocationName: "Hamburg"
 eventLocationLink: "https://www.cfel.de/"
 eventStreetAddress: "Luruper Chaussee 175"
 eventAddressLocality: "Hamburg"
-eventAddressLocalityRegion: "hamburg"
+eventAddressLocalityRegion: "Hamburg"
 eventPostalCode: "22761"
 eventAddressCountry: "Germany"
 eventStartTime: "2018-07-4T09:00"
