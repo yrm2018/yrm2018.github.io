@@ -37,6 +37,7 @@
   company: "Royal Institute of Technology (KTH), Stockholm"
   title: "Post-Doc"
   thumbnailUrl: profile-placeholder.gif
+  rockstar: true  
 - 
   id: 8
   name: "Laura"

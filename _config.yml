@@ -72,23 +72,23 @@ aboutBlock:
  - {title: "Industry Session", image: "research.jpg", text: "Invited companies will present their ideas and give an insight into industrial research." }
  - {title: "Poster Session", image: "poster.jpg", text: "Have discussions and learn new perspective in a one-to-one manner." }
  - {title: "Open Session", image: "open_session.jpg", text: "Talk about what really boosted your daily routine and you want other people to know." } 
- - {title: "Scientific Speed Dating", image: "romantic.jpg", text: "Explean your work to others and hear what they do in five minutes." }
+ - {title: "Scientific Speed Dating", image: "romantic.jpg", text: "Explain your work to others and hear what they do in five minutes." }
  - {title: "Get together", image: "harbour.jpg", text: "Meet the community and find new collaborators during the breaks or one of the many social events." }  
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
  - {count: "70", specialCharacter: "+", info: "attendees", detail: "PHd students and young post docs"}
- - {count: "7", specialCharacter: "", info: "session", detail: "of Physics and beyond"}
+ - {count: "7", specialCharacter: "", info: "sessions", detail: "of Physics and beyond"}
  - {count: "7", specialCharacter: "", info: "invited speakers", detail: "from all around the world"}
- - {count: "5", specialCharacter: "", info: "meals included", detail: "plus lots of social events"}
+ - {count: "300", specialCharacter: "+", info: "litre of coffee", detail: "plus snacks"}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
 
 # Rockstar Speakers Block
 rockstarSpeakersImage: "invited_speakers.jpg"
-rockstarSpeakersCount: 6
+rockstarSpeakersCount: 7
 rockstarSpeakersTitle: "Invited speakers"
 rockstarSpeakersButtonText: "See all speakers"
 
