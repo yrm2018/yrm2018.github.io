@@ -1,58 +1,30 @@
 <!-- About Section -->
-<section id="about" class="programme">
-   <div class="content-wrapper">
-      <div class="col-lg-10 col-lg-offset-1">
-         <h3>{{ site.data.programme.programmeTitle }}</h3>
-         <h6 style="margin-bottom: 50px;">{{ site.data.programme.programmeText}}</h6>
-         <section id="blog" class="programme">
-            <div class="content-wrapper text-left">
-               <div class="col-md-10 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">
-                  <div class="col-lg-8 col-md-10 col-xs-12">
-                     {% for session in site.data.session_p %}
-                     <article class="row post">
-                        <div>
-                           <div class="post-header" style="height: auto;;
-                       ">
-
-                              <h4> {{ session.title }}</h4>
-                              <div>
-                                 <div class="published col-md-3 col-xs-3 pull-left">
-                                    <span class="caption">Invited Speaker:</span>
-                                 </div>
-                                 {% for speaker in site.data.speakers %}  
-                                    {% for session_speaker in session.invited_speaker %} 
-                                       {% if session_speaker == speaker.id %}
-                                 <div class="share col-md-9 col-xs-9 pull-right">
-                                    <p class="speaker-name">{{ speaker.name }} {{ speaker.surname }},
-                                       <span class="speaker-position">{{ speaker.company }}</span>
-                                    </p>
-                                    </li>
-                                 </div>
-                                 {% endif %} {% endfor %} {% endfor %}
-                                 <br>
-
-                              </div>
-                           </div>
-                           <div class="post-body">
-                              {% for paragraph in session.content %}
-                              <p class="post-body" style="text-align:justify">{{ paragraph.para }} </p>
-                              {% endfor %}
-                              <div style="width: 100%; min-height:10px"></div>
-                              {% for citation in session.citations %}
-                              <p class="post-body" style="text-align:justify; margin-top:5px">{{ citation.cite }} </p>
-                              {% endfor %}
-
-                           </div>
-                        </div>
-
-                     </article>
-                     {% endfor %}
-                  </div>
-               </div>
+<section id="about" class="about">
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1">
+            <h3>{{ site.data.programme.programmeTitle }}</h3>
+            <h6 style="margin-bottom: 50px;">{{ site.data.programme.programmeText}}</h6>
+            <div class="row about-details">
+                {% assign animationDelay = 0 %} 
+                {% for session in site.data.sessions %} 
+                {% assign colWidth = 12 | divided_by: forloop.length %}
+                {% if session.in_programme %}
+                <div id="session-{{ session.id }}" class="col-md-3 col-xs-12 flexbox-item-height" data-slot-detail="{{ day.tracks[slotIndex].title }}" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}">
+                        <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
+                                <h5 class="about-title-element">{{ session.title }}</h5>
+                                <img class="img-circle" src="{{ site.baseurl }}/img/about-section/{{ session.image }}" height="128" width="128" alt="{{ about.title }}">
+                                <p>{{ session.text }}</p>
+                            </div>
+                    </div>
+                {% assign animationDelay = animationDelay | plus:500 %} 
+                {% assign check = forloop.index | modulo:2 %} 
+                {% if check == 0 %}
+                <div class="clearfix visible-xs"></div>
+                {% endif %} 
+                {% endif %} 
+                {% endfor %}
             </div>
-         </section>
-
-      </div>
-   </div>
+        </div>
+    </div>
 </section>
 <!-- End About Section -->

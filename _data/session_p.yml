@@ -10,6 +10,7 @@
     - cite: "[2] NOMAD Repository (https://repository.nomad-coe.eu/), Material Genome Initiative (https://www.mgi.gov/)"
     - cite: "[3] D. Larbalestier, A. Gurevich, D. M. Feldmann, and A. Polyanskii, Nature 414, 368-377 (2001)."
     - cite: "[4] J. Greeley, T. Jaramillo, J. Bonde, I. Chorkendorff, and J. Nørskov, Nature Materials 1752, 10.1038 (2006).    "
+  image: "conference_2.jpg"
 -
   title: "Theoretical spectroscopy"
   content:
@@ -23,6 +24,7 @@
     - cite: "[3] G. Onida, L. Reining, and A. Rubio, Rev. Mod. Phys. 74, 601 (2002)."
     - cite: "[4] L. Yang, C.-H. Park, Y.-W. Son, M. L. Cohen, and S. G. Louie Phys. Rev. Lett. 99, 186801 (2007)."
     - cite: "[5] A. Damascelli, Z. Hussain, and Z.i-X. Shen, Rev. Mod. Phys. 75, 473 (2003)."
+  image: "conference_2.jpg"
 -
   title: "Modelling properties of complex systems"
   content:
@@ -38,6 +40,7 @@
     - cite: "[5] R. E. Alcantara, C. Xu, T. G. Spiro, and V. Guallar, PNAS 104, 18451 (2007)."    
     - cite: "[6] T. J. Aartsma, and J. Matysik, eds. Biophysical techniques in photosynthesis, Vol. I, Springer, Dordrecht (2008)."    
     - cite: "[7] S. A. French, A. A. Sokol, S. T. Bromley, C. Richard, A. Catlow, S. C. Rogers, F. King, and P. Sherwood, Angew. Chem. 113, 4569 (2001)."    
+  image: "conference_2.jpg"
 -
   title: "Strongly Correlated Electrons, Magnetism, and Topological Phases of Matter"
   content:
@@ -55,6 +58,7 @@
     - cite: "[7] P. W. Anderson, The theory of superconductivity in the high-Tc cuprate superconductors Vol. 446, Princeton University Press, Princeton (1997)."    
     - cite: "[8] X.-L. Qi, and S.-C. Zhang, Rev. Mod. Phys. 83, 1057 (2011)."    
     - cite: "[9] L. Balents, Nature 464, 199 (2010)."            
+  image: "conference_2.jpg"
 -
   title: "Fermion-boson systems in and out of equilibrium"
   content:
@@ -70,3 +74,52 @@
     - cite: "[5] J. Feist, and F. J. Garcia-Vidal, Phys. Rev. Lett. 114(19), 196402 (2015)."    
     - cite: "[6] D. Fausti, R. I. Tobey, N. Dean, S. Kaiser, A. Dienst, M. C. Hoffmann, S. Pyon, T. Takayama, H. Takagi, A. Cavalleri, Science 331, 189 (2011)."    
     - cite: "[7] Y. Cui, S. Tosoni, W.-D. Schneider, G. Pacchioni, N. Nilius, and H.-J. Freund, Phys. Rev. Lett. 114, 016804 (2015)."    
+  image: "conference_2.jpg"
+-
+  title: "Poster Session"
+  content:
+    - para: "As a common approach to theoretical spectroscopy, the bosonic degrees of freedom can be approximated by effective interactions or dissipation. In the last decades, however, many experiments revealed interesting phenomena that need a more elaborate description, where bosons and fermions are treated on the same quantized footing [1]."
+    - para: "Incorporating photonic and phononic degrees of freedom ab initio in fermionic systems is a possible but formidable task to be tackled over the next decade. Established methods such as DFT, master equations, MPBT, and strong coupling approaches such as DMFT are getting extended by quantum electrodynamical DFT methods [2] or generalized Kadanoff-Baym approaches [3]."
+    - para: "Chemical landscapes of complex molecules that are modified by cavities [4], for instance, have to be described by coupled fermion-boson models. Driven coupled systems even form entirely new states of matter, which lead to extraordinary exciton conductance in organic materials [5], light-induced superconductivity in cuprates [6], or phonon-mediated electron transport [7]. The theoretical description of such phenomena is the main focus of this session."
+  invited_speaker: [9]
+  citations:
+    - cite: "[1] F. Giustino, Rev. Mod. Phys. 89(1), 015003 (2017)."
+    - cite: "[2] M. Ruggenthaler, J. Flick, C. Pellegrini, H. Appel, I. V. Tokatly, and A. Rubio, Phys. Rev. A. 90(1), 012508 (2014)."
+    - cite: "[3] P. M. M. C. de Melo, and A. Marini, Phys. Rev. B 93, 155102 (2016)."
+    - cite: "[4] T. Schwartz, J. A. Hutchison, C. Genet, and T. W. Ebbesen, Phys. Rev. Lett., 106(19), 196405 (2011)."
+    - cite: "[5] J. Feist, and F. J. Garcia-Vidal, Phys. Rev. Lett. 114(19), 196402 (2015)."    
+    - cite: "[6] D. Fausti, R. I. Tobey, N. Dean, S. Kaiser, A. Dienst, M. C. Hoffmann, S. Pyon, T. Takayama, H. Takagi, A. Cavalleri, Science 331, 189 (2011)."    
+    - cite: "[7] Y. Cui, S. Tosoni, W.-D. Schneider, G. Pacchioni, N. Nilius, and H.-J. Freund, Phys. Rev. Lett. 114, 016804 (2015)."    
+  image: "conference_2.jpg"
+-
+  title: "Open Session"
+  content:
+    - para: "As a common approach to theoretical spectroscopy, the bosonic degrees of freedom can be approximated by effective interactions or dissipation. In the last decades, however, many experiments revealed interesting phenomena that need a more elaborate description, where bosons and fermions are treated on the same quantized footing [1]."
+    - para: "Incorporating photonic and phononic degrees of freedom ab initio in fermionic systems is a possible but formidable task to be tackled over the next decade. Established methods such as DFT, master equations, MPBT, and strong coupling approaches such as DMFT are getting extended by quantum electrodynamical DFT methods [2] or generalized Kadanoff-Baym approaches [3]."
+    - para: "Chemical landscapes of complex molecules that are modified by cavities [4], for instance, have to be described by coupled fermion-boson models. Driven coupled systems even form entirely new states of matter, which lead to extraordinary exciton conductance in organic materials [5], light-induced superconductivity in cuprates [6], or phonon-mediated electron transport [7]. The theoretical description of such phenomena is the main focus of this session."
+  invited_speaker: [9]
+  citations:
+    - cite: "[1] F. Giustino, Rev. Mod. Phys. 89(1), 015003 (2017)."
+    - cite: "[2] M. Ruggenthaler, J. Flick, C. Pellegrini, H. Appel, I. V. Tokatly, and A. Rubio, Phys. Rev. A. 90(1), 012508 (2014)."
+    - cite: "[3] P. M. M. C. de Melo, and A. Marini, Phys. Rev. B 93, 155102 (2016)."
+    - cite: "[4] T. Schwartz, J. A. Hutchison, C. Genet, and T. W. Ebbesen, Phys. Rev. Lett., 106(19), 196405 (2011)."
+    - cite: "[5] J. Feist, and F. J. Garcia-Vidal, Phys. Rev. Lett. 114(19), 196402 (2015)."    
+    - cite: "[6] D. Fausti, R. I. Tobey, N. Dean, S. Kaiser, A. Dienst, M. C. Hoffmann, S. Pyon, T. Takayama, H. Takagi, A. Cavalleri, Science 331, 189 (2011)."    
+    - cite: "[7] Y. Cui, S. Tosoni, W.-D. Schneider, G. Pacchioni, N. Nilius, and H.-J. Freund, Phys. Rev. Lett. 114, 016804 (2015)."    
+  image: "conference_2.jpg"
+-
+  title: "Industry Session"
+  content:
+    - para: "As a common approach to theoretical spectroscopy, the bosonic degrees of freedom can be approximated by effective interactions or dissipation. In the last decades, however, many experiments revealed interesting phenomena that need a more elaborate description, where bosons and fermions are treated on the same quantized footing [1]."
+    - para: "Incorporating photonic and phononic degrees of freedom ab initio in fermionic systems is a possible but formidable task to be tackled over the next decade. Established methods such as DFT, master equations, MPBT, and strong coupling approaches such as DMFT are getting extended by quantum electrodynamical DFT methods [2] or generalized Kadanoff-Baym approaches [3]."
+    - para: "Chemical landscapes of complex molecules that are modified by cavities [4], for instance, have to be described by coupled fermion-boson models. Driven coupled systems even form entirely new states of matter, which lead to extraordinary exciton conductance in organic materials [5], light-induced superconductivity in cuprates [6], or phonon-mediated electron transport [7]. The theoretical description of such phenomena is the main focus of this session."
+  invited_speaker: [9]
+  citations:
+    - cite: "[1] F. Giustino, Rev. Mod. Phys. 89(1), 015003 (2017)."
+    - cite: "[2] M. Ruggenthaler, J. Flick, C. Pellegrini, H. Appel, I. V. Tokatly, and A. Rubio, Phys. Rev. A. 90(1), 012508 (2014)."
+    - cite: "[3] P. M. M. C. de Melo, and A. Marini, Phys. Rev. B 93, 155102 (2016)."
+    - cite: "[4] T. Schwartz, J. A. Hutchison, C. Genet, and T. W. Ebbesen, Phys. Rev. Lett., 106(19), 196405 (2011)."
+    - cite: "[5] J. Feist, and F. J. Garcia-Vidal, Phys. Rev. Lett. 114(19), 196402 (2015)."    
+    - cite: "[6] D. Fausti, R. I. Tobey, N. Dean, S. Kaiser, A. Dienst, M. C. Hoffmann, S. Pyon, T. Takayama, H. Takagi, A. Cavalleri, Science 331, 189 (2011)."    
+    - cite: "[7] Y. Cui, S. Tosoni, W.-D. Schneider, G. Pacchioni, N. Nilius, and H.-J. Freund, Phys. Rev. Lett. 114, 016804 (2015)."    
+  image: "conference_2.jpg"
