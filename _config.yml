@@ -180,18 +180,41 @@ socialLinks:
  - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -
-  title: "Links"
+  title: "Impressum"
   links:
-   - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
-   - {link: "https://developers.google.com", text: "Google Developers"}
+   - {text: "Adresse <br>
+             <br style=\"line-height: .5em;\">
+             Max-Planck-Gesellschaft zur Förderung der Wissenschaften e.V. <br>
+             Hofgartenstraße 8 <br>
+             80539 München <br>
+             Telefon: +49 (0)89 2108-0 <br>
+             Internet: www.mpg.de <br>
+             E-Mail: presse@gv.mpg.de <br>
+             <br>
+             Vereinsregister <br>
+             <br style=\"line-height: .5em;\">
+             Die Max-Planck-Gesellschaft ist im Vereinsregister des Amtsgerichts Berlin-Charlottenburg unter der Registernummer VR 13378 B eingetragen.
+             <br>
+             Vertreter<br>
+             <br>
+             Die Max-Planck-Gesellschaft wird gesetzlich vertreten durch den Vereinsvorstand, und dieser wiederum durch den Präsidenten, Prof. Dr. Martin Stratmann, und den Generalsekretär, Rüdiger Willems.
+             <br>
+             Umsatzsteueridentifikationsnummer<br>
+             Die Umsatzsteueridentifikationsnummer der Max-Planck-Gesellschaft lautet: DE 129517720<br>
+             Redaktionsverantwortlicher<br>
+             <br>
+             Redaktionsverantwortlicher für die Internetpräsenz des Max-Planck-Instituts für Struktur und Dynamik der Materie im Sinne des Presserechts:<br>
+             <br>
+             Prof. Dr. Angel Rubio<br>
+             E-Mail: angel.rubio@mpsd.mpg.de<br>" }
+ -
+  title: ""
+  links:
+   - {permalink: "", text: ""}
  -
   title: "Contacts"
   links:
    - {link: "mailto:yrm2018@mpsd.mpg.com", text: "yrm2018@mpsd.mpg.com"}
- -
-  title: "FAQ"
-  links:
-   - {permalink: "/cod/", text: "Code of Conduct"}
 
 # # Blog
 # blogTitle: "Latest news"
