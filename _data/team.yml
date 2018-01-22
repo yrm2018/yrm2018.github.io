@@ -3,13 +3,10 @@
   name: "Florian"
   surname: "Buchholz"
   title: "PhD student, Max Planck Institute for the Structure and Dynamics of Matter, Hamburg, Germany"
-  thumbnailUrl: profile-placeholder.gif
+  thumbnailUrl: florian_buchholz.jpg
   team: true
   social: 
-    - {name: "google-plus", link: "https://google.com/+VitalikZasadnyy"}
-    - {name: "twitter", link: "https://twitter.com/zasadnyy"}
-    - {name: "github", link: "https://github.com/zasadnyy"}
-    - {name: "site", link: "http://zasadnyy.com/"}
+    - {name: "site", link: "http://www.mpsd.mpg.de/person/42355/166465"}
 - 
   id: 1
   name: "Lars-Hendrik"
@@ -53,7 +50,7 @@
   name: "Teresa"
   surname: "Reinhard"
   title: "PhD student, Max Planck Institute for the Structure and Dynamics of Matter, Hamburg, Germany"
-  thumbnailUrl: profile-placeholder.gif
+  thumbnailUrl: teresa_reinhard.jpg
   subTeam: true
   social: 
     - {name: "google-plus", link: "https://plus.google.com/+DmytroDanylyk"}
@@ -64,7 +61,7 @@
   name: "Vasil"
   surname: "Rokaj"
   title: "PhD student, Max Planck Institute for the Structure and Dynamics of Matter, Hamburg, Germany"
-  thumbnailUrl: profile-placeholder.gif
+  thumbnailUrl: vasil_rokaj.jpg
   subTeam: truer
   social: 
     - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
@@ -74,7 +71,7 @@
   name: "Davis"
   surname: "Welakuh"
   title: "PhD student, Max Planck Institute for the Structure and Dynamics of Matter, Hamburg, Germany"
-  thumbnailUrl: profile-placeholder.gif
+  thumbnailUrl: davis_welakuh.jpg
   subTeam: truer
   social: 
     - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
