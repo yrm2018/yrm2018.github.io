@@ -52,10 +52,6 @@
   title: "PhD student, Max Planck Institute for the Structure and Dynamics of Matter, Hamburg, Germany"
   thumbnailUrl: teresa_reinhard.jpg
   subTeam: true
-  social: 
-    - {name: "google-plus", link: "https://plus.google.com/+DmytroDanylyk"}
-    - {name: "twitter", link: "https://twitter.com/dmytrodanylyk"}
-    - {name: "github", link: "https://github.com/dmytrodanylyk"}
 - 
   id: 7
   name: "Vasil"
@@ -63,9 +59,7 @@
   title: "PhD student, Max Planck Institute for the Structure and Dynamics of Matter, Hamburg, Germany"
   thumbnailUrl: vasil_rokaj.jpg
   subTeam: truer
-  social: 
-    - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
-    - {name: "site", link: "http://olostan.name/"}
+
 - 
   id: 7
   name: "Davis"
@@ -73,6 +67,4 @@
   title: "PhD student, Max Planck Institute for the Structure and Dynamics of Matter, Hamburg, Germany"
   thumbnailUrl: davis_welakuh.jpg
   subTeam: truer
-  social: 
-    - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
-    - {name: "site", link: "http://olostan.name/"}
+
