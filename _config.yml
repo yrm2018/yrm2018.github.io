@@ -68,18 +68,18 @@ eventDate: "June 4 - June 8, 2018, Hamburg, Germany"
 aboutTitle: "About the Young Researchers' Meeting"
 aboutText: "The Young Researchers’ Meeting (YRM) of the European Theoretical Spectroscopy Facility (ETSF) is an annual conference organized and attended exclusively by researchers without permanent position that work on state-of-the-art theoretical and computational methods for the study of electronic and optical properties of materials."
 aboutBlock:
- - {title: "Conference", image: "conference_2.jpg", text: "Speakers from the theoretical spectroscopy community" }
- - {title: "Industry Session", image: "research.jpg", text: "Invited companies will present their ideas and give an insight into industrial research." }
- - {title: "Poster Session", image: "poster.jpg", text: "Have discussions and learn new perspective in a one-to-one manner." }
- - {title: "Open Session", image: "open_session.jpg", text: "Talk about what really boosted your daily routine and you want other people to know." } 
+ - {title: "Conference", image: "conference_2.jpg", text: "Listen to exciting speakers from the broad community of ab-inito" }
+ - {title: "Industry Session", image: "research.jpg", text: "Learn about the opportunities that are waiting of outside academia." }
+ - {title: "Poster Session", image: "poster.jpg", text: "Have discussions and learn new perspectives in a one-to-one manner." }
+ - {title: "Open Session", image: "open_session.jpg", text: "Talk about what really boosted your insights and you want other people to know." } 
  - {title: "Scientific Speed Dating", image: "romantic.jpg", text: "Explain your work to others and hear what they do in five minutes." }
- - {title: "Get together", image: "harbour.jpg", text: "Meet the community and find new collaborators during the breaks or one of the many social events." }  
+ - {title: "Get together", image: "harbour.jpg", text: "Meet the community and find new collaborators during one of the many social events." }  
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "70", specialCharacter: "+", info: "attendees", detail: "PHd students and young post docs"}
- - {count: "7", specialCharacter: "", info: "sessions", detail: "of Physics and beyond"}
+ - {count: "70", specialCharacter: "+", info: "attendees", detail: "exclusively young scientists"}
+ - {count: "7", specialCharacter: "", info: "sessions", detail: "on physics and beyond"}
  - {count: "7", specialCharacter: "", info: "invited speakers", detail: "from all around the world"}
  - {count: "300", specialCharacter: "+", info: "litre of coffee", detail: "plus snacks"}
 
