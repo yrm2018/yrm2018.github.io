@@ -157,18 +157,8 @@
   in_programme: true
   image: "conference_2.jpg"
   content:
-    - para: "As a common approach to theoretical spectroscopy, the bosonic degrees of freedom can be approximated by effective interactions or dissipation. In the last decades, however, many experiments revealed interesting phenomena that need a more elaborate description, where bosons and fermions are treated on the same quantized footing [1]."
-    - para: "Incorporating photonic and phononic degrees of freedom ab initio in fermionic systems is a possible but formidable task to be tackled over the next decade. Established methods such as DFT, master equations, MPBT, and strong coupling approaches such as DMFT are getting extended by quantum electrodynamical DFT methods [2] or generalized Kadanoff-Baym approaches [3]."
-    - para: "Chemical landscapes of complex molecules that are modified by cavities [4], for instance, have to be described by coupled fermion-boson models. Driven coupled systems even form entirely new states of matter, which lead to extraordinary exciton conductance in organic materials [5], light-induced superconductivity in cuprates [6], or phonon-mediated electron transport [7]. The theoretical description of such phenomena is the main focus of this session."
-  invited_speaker: [9]
-  references:
-    - cite: "[1] F. Giustino, Rev. Mod. Phys. 89(1), 015003 (2017)."
-    - cite: "[2] M. Ruggenthaler, J. Flick, C. Pellegrini, H. Appel, I. V. Tokatly, and A. Rubio, Phys. Rev. A. 90(1), 012508 (2014)."
-    - cite: "[3] P. M. M. C. de Melo, and A. Marini, Phys. Rev. B 93, 155102 (2016)."
-    - cite: "[4] T. Schwartz, J. A. Hutchison, C. Genet, and T. W. Ebbesen, Phys. Rev. Lett., 106(19), 196405 (2011)."
-    - cite: "[5] J. Feist, and F. J. Garcia-Vidal, Phys. Rev. Lett. 114(19), 196402 (2015)."    
-    - cite: "[6] D. Fausti, R. I. Tobey, N. Dean, S. Kaiser, A. Dienst, M. C. Hoffmann, S. Pyon, T. Takayama, H. Takagi, A. Cavalleri, Science 331, 189 (2011)."    
-    - cite: "[7] Y. Cui, S. Tosoni, W.-D. Schneider, G. Pacchioni, N. Nilius, and H.-J. Freund, Phys. Rev. Lett. 114, 016804 (2015)."   
+    - para: "Following the tradition of scientific conferences, we will host a Poster Session, where everyone is given the opportunity to present their work to the others in a more face to face manner."
+    - para: "We encourage everyone to contribute to the conference by a talk or a poster. You also can do both if you wish!"
 -
   id: 801
   title: "Open Session"
@@ -178,13 +168,15 @@
   in_programme: true
   image: "conference_2.jpg"
   content:
-    - para: "**What is the open session?** In this year's YRM, we are glad to invite the participants to a little experiment, that we call the 'open session.' Conferences are a very important part of the scientific process, they play a key role for networking, the scientific exchange, and the critical examination of new results. Experts on a certain special topic meet to present and discuss about their new accomplishments and findings.
-    However, they never talk about for example the 'not-enough-findings,' detailed elaborations of some equations, that surely were helpful, but not important enough for a paper, or some nice and simple simulations that were one's personal key to understand the problem, but definitely not appropriate to be published. And then there are all the 'not-findings.' The problems they encountered,  the sincerely worked-out theories that in the end turned out to not being 'relevant enough', or numerically unfeasible. And of course, one should not forget the 'already-foundings!' The little things that are always cited as trivialities, and then - after hours of research - they turn out to be so complex that we better close the book again and copy the old citation …"
-    - para: "Of course, not everything - and maybe only a little part of those - is interesting for somebody else. But we believe that this little part in fact matters and it is worth to being talked about! If you share this believe or got inspired by what we were writing, we would be pleased about your contribution in the open session. Below, we mention some examples that inspired us, so please have a look for some more inspiration."
-    - para: "**Don't be afraid!** We know that it is always a hard start for new ideas like this one. Of course, nobody - also not us - does have experiences to share or to copy from. We are all swimming in unknown terrain. So we want to emphasize that the presentation does not have to be perfect at all. Also a bit of improvisation is fine. if there is just somebody, who can take something from it, wasn't it worth the effort already? And to encourage everybody who is still hesitating, we would like to announce that we give a priority to everybody who is applying with a contribution for the open session!"
-    - para: "The format of the talk is free. And you can also ask for a longer time slot. You can apply for a contributed talk and/or the open session."
-    - para: "Examples"
-    - para: "We all know that electrons and photons are the 'same' in terms of their quantum field theoretical description. They just have different commutation relations. However, why do I need the extra wavefunction (typically called Psi) for electrons, but the quantum field of the photons is just A and E?"
+    - para: "<b>What is the open session?</b> <br> In this year's YRM, we are glad to invite the participants to a little experiment, that we call the 'open session.' Conferences are a very important part of the scientific process, they play a key role for networking, the scientific exchange, and the critical examination of new results. Experts on a certain special topic meet to present and discuss about their new accomplishments and findings.
+    However, they never talk about for example the <b>'not-enough-findings,'</b> detailed elaborations of some equations, that surely were helpful, but not important enough for a paper, or some nice and simple simulations that were one's personal key to understand the problem, but definitely not appropriate to be published. And then there are all the <b>'not-findings.'</b> The problems they encountered,  the sincerely worked-out theories that in the end turned out to not being 'relevant enough', or numerically unfeasible. And of course, one should not forget the <b>'already-foundings!'</b> The little things that are always cited as trivialities, and then - after hours of research - they turn out to be so complex that we better close the book again and copy the old citation …"
+    - para: "Of course, not everything - and maybe only a little part of those - is interesting for somebody else. <b>But we believe that this little part in fact matters and it is worth to being talked about!</b> If you share this believe or got inspired by what we were writing, we would be pleased about your contribution in the open session. Below, we mention some examples that inspired us, so please have a look for some more inspiration."
+    - para: "<b>Don't be afraid!</b> <br> We know that it is always a hard start for new ideas like this one. Of course, nobody - also not us - does have experiences to share or to copy from. We are all swimming in unknown terrain. So we want to emphasize that <b>the presentation does not have to be perfect at all.</b> Also a bit of improvisation is fine. if there is just somebody, who can take something from it, wasn't it worth the effort already? And to encourage everybody who is still hesitating, we would like to announce that we give a <b>priority to everybody who is applying with a contribution for the open session!</b>"
+    - para: "The format of the talk is up to you. And you can also ask for a longer time slot. You can apply for a contributed talk and/or the open session."
+    - para: "<b>Examples:</b>"
+    - para: "Why does a boundary need to absorb particles?"
+    - para: "We all know that electrons and photons are the 'same' in terms of their quantum field theoretical description. They just have different commutation relations. However, why do we need the extra wavefunction for electrons (typically called &Psi;), but the quantum field of the photons is just the vector potential A?"
+    - para: "Why do negative-energy solutions of the Dirac equation correspond to ‘new’ particles with positive charge?"
   invited_speaker: [9]
   examples:
     - cite: "[1] F. Giustino, Rev. Mod. Phys. 89(1), 015003 (2017)."  
@@ -192,19 +184,15 @@
   id: 901
   title: "Industry Session"
   content:
-    - para: "As a common approach to theoretical spectroscopy, the bosonic degrees of freedom can be approximated by effective interactions or dissipation. In the last decades, however, many experiments revealed interesting phenomena that need a more elaborate description, where bosons and fermions are treated on the same quantized footing [1]."
-    - para: "Incorporating photonic and phononic degrees of freedom ab initio in fermionic systems is a possible but formidable task to be tackled over the next decade. Established methods such as DFT, master equations, MPBT, and strong coupling approaches such as DMFT are getting extended by quantum electrodynamical DFT methods [2] or generalized Kadanoff-Baym approaches [3]."
-    - para: "Chemical landscapes of complex molecules that are modified by cavities [4], for instance, have to be described by coupled fermion-boson models. Driven coupled systems even form entirely new states of matter, which lead to extraordinary exciton conductance in organic materials [5], light-induced superconductivity in cuprates [6], or phonon-mediated electron transport [7]. The theoretical description of such phenomena is the main focus of this session."
+    - para: "This years' ETSF YRM will host a full session, dedicated to the private sector, where we invite speakers with scientific background working outside academia. The speakers will 'present' their company, share their experiences of working in industry and talk about the transition from academia to industry."
+    - para: "So far we have following confirmed speakers:
+		<ul>
+		  <li>Springer Materials</li>
+		  <li>Jenoptik</li>
+		  <li>Philips Research</li>
+		</ul> "
   place: "CFEL"
   subtype: workshop
   description: "An introduction into the field"
   in_programme: true
-  image: "conference_2.jpg"
-  references:
-    - cite: "[1] F. Giustino, Rev. Mod. Phys. 89(1), 015003 (2017)."
-    - cite: "[2] M. Ruggenthaler, J. Flick, C. Pellegrini, H. Appel, I. V. Tokatly, and A. Rubio, Phys. Rev. A. 90(1), 012508 (2014)."
-    - cite: "[3] P. M. M. C. de Melo, and A. Marini, Phys. Rev. B 93, 155102 (2016)."
-    - cite: "[4] T. Schwartz, J. A. Hutchison, C. Genet, and T. W. Ebbesen, Phys. Rev. Lett., 106(19), 196405 (2011)."
-    - cite: "[5] J. Feist, and F. J. Garcia-Vidal, Phys. Rev. Lett. 114(19), 196402 (2015)."    
-    - cite: "[6] D. Fausti, R. I. Tobey, N. Dean, S. Kaiser, A. Dienst, M. C. Hoffmann, S. Pyon, T. Takayama, H. Takagi, A. Cavalleri, Science 331, 189 (2011)."    
-    - cite: "[7] Y. Cui, S. Tosoni, W.-D. Schneider, G. Pacchioni, N. Nilius, and H.-J. Freund, Phys. Rev. Lett. 114, 016804 (2015)."   
+  image: "conference_2.jpg"  
