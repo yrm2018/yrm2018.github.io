@@ -93,19 +93,27 @@ layout: compress
                     {% endfor %}
                 ];
                 rockstarSpeakers.sort(function() {return 0.5 - Math.random()});
-                if(rockstarSpeakers.length > 0) {
-                    var animationDelay = 1500,
-                        count = Math.min({{ site.rockstarSpeakersCount }}, rockstarSpeakers.length),
-                        colWidth = 12/count;
-                    for(i=0; i<count; i++) {
-                        var clearfix = '<div class="clearfix visible-xs"></div>';
-                        if ((i)%4 != 0) {
-                            clearfix = ""
-                        }
-                        $('#rockstar-speaker-title').after('<div class="col-md-'+ colWidth +' col-xs-3 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay +'"><div class="rockstar-speaker"><div class="flow-img img-circle rockstar-speaker-img" style="background-image: url(' + rockstarSpeakers[i].image + ')"></div><div class="name">' + rockstarSpeakers[i].name + '</div><div class="sub">' + rockstarSpeakers[i].company + '</div></div></div>' + clearfix);
-                        animationDelay -= 500;
-                    }
-                }
+                // if(rockstarSpeakers.length > 0) {
+                //     var animationDelay = 1500,
+                //         count = Math.min({{ site.rockstarSpeakersCount }}, rockstarSpeakers.length),
+                //         colWidth = 12/count;
+                //     for(i=0; i<4; i++) {
+                //         var clearfix = '<div class="clearfix visible-xs"></div>';
+                //         if ((i)%4 != 0) {
+                //             clearfix = ""
+                //         }
+                //         $('#rockstar-speaker-title').after('<div class="col-md-'+ colWidth +' col-xs-3 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay +'"><div class="rockstar-speaker"><div class="flow-img img-circle rockstar-speaker-img" style="background-image: url(' + rockstarSpeakers[i].image + ')"></div><div class="name">' + rockstarSpeakers[i].name + '</div><div class="sub">' + rockstarSpeakers[i].company + '</div></div></div>' + clearfix);
+                //         animationDelay -= 500;
+                //     }
+                //     for(i=4; i<7; i++) {
+                //         var clearfix = '<div class="clearfix visible-xs"></div>';
+                //         if ((i)%4 != 0) {
+                //             clearfix = ""
+                //         }
+                //         $('#rockstar-speaker-title').after('<div class="col-md-'+ colWidth +' col-xs-3 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay +'"><div class="rockstar-speaker"><div class="flow-img img-circle rockstar-speaker-img" style="background-image: url(' + rockstarSpeakers[i].image + ')"></div><div class="name">' + rockstarSpeakers[i].name + '</div><div class="sub">' + rockstarSpeakers[i].company + '</div></div></div>' + clearfix);
+                //         animationDelay -= 500;
+                //     }
+                // }
             });
         {% elsif page.permalink == '/logistics/' %}
             var googleMaps = 'logistics',
