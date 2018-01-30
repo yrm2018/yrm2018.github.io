@@ -26,7 +26,9 @@
 						{% for paragraph in session.content %}
 						<p class="theme-description">{{paragraph.para}}</p>
 						{% endfor %}
+						{% if session.references %}
 						<p class="theme-description">References:</p>
+						{% endif %}
 						{% for reference in session.references %}
 						<p class="theme-description" style="margin-bottom: -5px" >{{reference.cite}}</p>
 						{% endfor %}
