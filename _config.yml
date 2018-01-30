@@ -229,50 +229,37 @@ footerBlocks:
 # teamBlockTitle: "About us"
 # aboutUs: "Google's services have become synonymous with simple things online. Number of technological innovations and IT industries in which Google is creating new products is enormous. It's hard to get to know all of them, but realistic. This is why people have started to gather in small local groups and share their experience. Later, the following groups have been called Google Developer Groups. GDGs can take many forms -- from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences."
 
-# # Logistics Find Way Block
-# findWayTitle: "Find your way here"
-# findWayDistance: "Distance"
-# findWayDriving: "DRIVING"
-# findWayWalking: "WALKING"
-# findWayBicycling: "BICYCLING"
-# findWayTransit: "TRANSIT"
-# findWayFindFlight: "Find Flight"
-# logisticsMapCenterCoordinates: "49.056728, 3.117289"
-# logisticsMapMobileCenterCoordinates: "48.335365, 23.711648"
-# logisticsMapAutoDirections: false
+# Venue Find Way Block
+findWayTitle: "Find your way to YRM 2018"
+findWayDistance: "Distance"
+findWayDriving: "DRIVING"
+findWayWalking: "WALKING"
+findWayBicycling: "BICYCLING"
+findWayTransit: "TRANSIT"
+findWayFindFlight: "Find Flight"
+venueMapCenterCoordinates: "49.056728, 3.117289"
+venueMapMobileCenterCoordinates: "48.335365, 23.711648"
+venueMapAutoDirections: false
 
-# # Logistics Direction Details Block
-# directionDetailsImage: "direction-details.jpg"
-# directionDetailsTitle: "Get around Lviv"
-# directionDetailsCards:
-#  - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
-#  - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
-#  - {title: "Hotels", information: 'Lviv has lots of great hotels and hostels. More information will be available later.'}
-# directionDetailsWideCards:
-#  -
-#   title: "Questions?"
-#   subCards:
-#    -
-#     title: "Hotels"
-#     links:
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-#    -
-#     title: "Registration"
-#     links:
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-#    -
-#     title: "Attendance Details"
-#     links:
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+# venue Direction Details Block
+directionDetailsImage: "max-langelott-464066.jpg"
+directionDetailsTitle: "Get to YRM 2018"
+directionDetailsCards:
+ - {title: "By Plane", information: 'The Hamburg international airport (HAM) is well connected to all major destinations in Europe. Conference accommodation and CFEL can be reached by public transport in 30 and 60 minutes.'}
+ - {title: "By Train", information: 'Central train station and Hamburg Altona are connected to the German high-speed train-network offered by https://www.bahn.com/en/view/index.shtml'}
+ - {title: "By Bus", information: 'Long-distance lines destinate close to central station and are linked to the local public transport. International connections are for example offered by FlixBus https://www.flixbus.co.uk'}
+directionDetailsWideCards:
+ -
+  title: "Questions?"
+  subCards:
+   -
+    title: "Accommodation"
+    text: "abc"
+    links:
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
 
 # # Hackathon
 # hackathonTitle: "Hackathon"
@@ -309,7 +296,7 @@ footerBlocks:
 # hackathonStartTime: "2014-10-24T10:00"
 # hackathonDoorTime: "09:00"
 # hackathonEndTime: "2014-10-25T00:00"
-# viewOnMap: "View on Google Maps"
+viewOnMap: "View on Google Maps"
 # hackathonPlaceCoordinates: "49.840999, 24.031144"
 # hackathonMapCenterCoordinates: "49.840696, 24.028754"
 # hackathonMapMobileCenterCoordinates: "49.841639, 24.031182"

@@ -397,7 +397,7 @@
             if ($(window).width() < 768) {
                 mapOptions.center = mobileCenterMap;
             }
-            if (googleMaps == 'logistics') {
+            if (googleMaps == 'venue') {
                 mapOptions.zoom = 5;
                 mapOptions.zoomControl = true;
             }
@@ -420,7 +420,7 @@
             var zoomedMapType = new google.maps.StyledMapType(zoomedOpts, zoomedMapOptions);
             map.mapTypes.set('default', defaultMapType);
             map.mapTypes.set('zoomed', zoomedMapType);
-            if (googleMaps === 'logistics') {
+            if (googleMaps === 'venue') {
                 map.setMapTypeId('default');
                 var input = (document.getElementById('location-input'));
                 autocomplete = new google.maps.places.Autocomplete(input);

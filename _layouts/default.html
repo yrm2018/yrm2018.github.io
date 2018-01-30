@@ -45,16 +45,16 @@ layout: compress
     }
     </script>
     <script src="{{ "/js/default.js" | prepend: site.baseurl }}"></script>
-    {% if page.permalink == '/' or page.permalink == '/hackathon/' %}
+    {% if page.permalink == '/' or page.permalink == '/bla/' %}
     <script>
         if ($(window).width() > 767) {
             document.write('<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOt1Ow_dqj8f_23vNPeiAE-Uv1MvevRw8&v=3.exp&sensor=false"><\/script>')
         } 
     </script>
-    {% elsif page.permalink == '/logistics/' %}
+    {% elsif page.permalink == '/venue/' %}
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOt1Ow_dqj8f_23vNPeiAE-Uv1MvevRw8&v=3.exp&libraries=places,geometry"></script>
         <script type="text/javascript">
-            var autoDirectionEnabled = {% if site.logisticsMapAutoDirections %} true {% else %} false {% endif %};
+            var autoDirectionEnabled = {% if site.venueMapAutoDirections %} true {% else %} false {% endif %};
         </script>
     {% endif %} 
     <script>
@@ -74,11 +74,11 @@ layout: compress
                 icon = '{{ site.baseurl | prepend: site.url }}/img/other/map-marker.png';
             }
             var twitterFeedUrl = '{{ site.twitterFeed }}';
-        {% elsif page.permalink == '/logistics/' %}
-            var googleMaps = 'logistics',
+        {% elsif page.permalink == '/venue/' %}
+            var googleMaps = 'venue',
                 eventPlace = new google.maps.LatLng({{ site.eventPlaceCoordinates }}),
-                centerMap = new google.maps.LatLng({{ site.logisticsMapCenterCoordinates }}),
-                mobileCenterMap = new google.maps.LatLng({{ site.logisticsMapMobileCenterCoordinates }}),
+                centerMap = new google.maps.LatLng({{ site.venueMapCenterCoordinates }}),
+                mobileCenterMap = new google.maps.LatLng({{ site.venueMapMobileCenterCoordinates }}),
                 icon = '{{ site.baseurl }}/img/other/map-marker.svg';
         {% elsif page.permalink == '/hackathon/' %}
             if ($(window).width() > 767) {
