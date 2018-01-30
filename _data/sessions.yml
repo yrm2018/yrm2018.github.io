@@ -24,7 +24,7 @@
   subtype: workshop
   speakers: [4]
   in_programme: true
-  image: "conference_2.jpg"
+  image: "structure128x128.jpg"
   content:
     - para: "The design and synthesis of novel materials is one of the big challenges in theoretical material science, which requires an accurate description of equilibrium properties of atoms, molecules and solids from first principles."
     - para: "Due to its numerical efficiency, density-functional theory (DFT) [1] remains the most widespread approach for electronic structure predictions. Hence, there is an ongoing effort to overcome known shortcomings such as the delocalization error and spurious self interactions. The huge amount of DFT calculations performed worldwide has triggered the creation of online electronic structure databases [2]. These databases not only serve as repositories for electronic structure calculations but also offer the use of novel approaches developed in computer science, e.g. machine learning, to analyze the data in order to guide the design of novel materials [3,4]."
@@ -75,7 +75,7 @@
     - para: "In this session, we explore new approaches and take advantage of the existing knowledge to tackle the challenges of predicting excited states structures of modern materials [4] and interpret, understand and predict experimental outcomes of methods, such as angle-resolved photoemission spectroscopy [5]."
   description: "An introduction into the field"
   in_programme: true
-  image: "conference_2.jpg"
+  image: "formula128x128.jpg"
   references:
     - cite: "[1] E. Runge and E. K. U. Gross, Phys. Rev. Lett. 52, 997 (1984)."
     - cite: "[2] L. Hedin, Phys. Rev. 139, A796 (1965)."
@@ -90,7 +90,7 @@
   subtype: workshop
   description: "An introduction into the field"
   in_programme: true
-  image: "conference_2.jpg"
+  image: "cell128x128.jpg"
   content:
     - para: "Complexity emerges when many degrees of freedom and different spatial scales and time scales are involved. This makes a full ab initio description of such systems challenging. Some processes on large scales can be treated with molecular dynamics approaches [1], which are purely classical. Still, chemical reactions and other electronic processes such as charge transfer or electronic exreferences require a quantum mechanical treatment."
     - para: "For small atomic and molecular systems a range of ab initio quantum chemical methods, e.g. coupled cluster [2], has been established. For larger systems, combined high-level/low-level descriptions are useful. The system is usually divided into parts, which are then treated on different levels of accuracy, e.g. quantum mechanics/molecular mechanics approaches [3]. There are new developments, e.g. frozen density embedding [4], which allow to treat all parts of a system on a quantum mechanical level separately."
@@ -111,7 +111,7 @@
   subtype: workshop
   description: "An introduction into the field"
   in_programme: true
-  image: "conference_2.jpg"
+  image: "domino128x128.jpeg"
   content:
     - para: "One of many prerequisites for strong correlation is that the interaction energy and the kinetic energy are of the same order of magnitude. Interesting phenomena of solid-state physics, e.g. metal-insulator transitions [1], geometric frustration [2], or topological orders [3], are closely related to the strong correlation between electrons."
     - para: "Model systems give insight into mechanisms behind phenomena, which are difficult to describe with common approximations used in first principle calculations. Hence, this session focuses on approaches going beyond the scope of standard first principle methods. Such methods are e.g. dynamical mean-field theory (DMFT) [4], diagrammatic Monte Carlo methods [5], or tensor network techniques [6]."
@@ -134,7 +134,7 @@
   subtype: workshop
   description: "An introduction into the field"
   in_programme: true
-  image: "conference_2.jpg"
+  image: "lines128x128.jpg"
   content:
     - para: "As a common approach to theoretical spectroscopy, the bosonic degrees of freedom can be approximated by effective interactions or dissipation. In the last decades, however, many experiments revealed interesting phenomena that need a more elaborate description, where bosons and fermions are treated on the same quantized footing [1]."
     - para: "Incorporating photonic and phononic degrees of freedom ab initio in fermionic systems is a possible but formidable task to be tackled over the next decade. Established methods such as DFT, master equations, MPBT, and strong coupling approaches such as DMFT are getting extended by quantum electrodynamical DFT methods [2] or generalized Kadanoff-Baym approaches [3]."
@@ -155,7 +155,7 @@
   subtype: workshop
   description: "An introduction into the field"
   in_programme: true
-  image: "conference_2.jpg"
+  image: "poster128x128.jpg"
   content:
     - para: "Following the tradition of scientific conferences, we will host a Poster Session, where everyone is given the opportunity to present their work to the others in a more face to face manner."
     - para: "We encourage everyone to contribute to the conference by a talk or a poster. You also can do both if you wish!"
@@ -166,7 +166,7 @@
   subtype: workshop
   description: "A different type of session"
   in_programme: true
-  image: "conference_2.jpg"
+  image: "open128x128.jpg"
   content:
     - para: "<b>What is the open session?</b> <br> In this year's YRM, we are glad to invite the participants to a little experiment, that we call the 'open session.' Conferences are a very important part of the scientific process, they play a key role for networking, the scientific exchange, and the critical examination of new results. Experts on a certain special topic meet to present and discuss about their new accomplishments and findings.
     However, they never talk about for example the <b>'not-enough-findings,'</b> detailed elaborations of some equations, that surely were helpful, but not important enough for a paper, or some nice and simple simulations that were one's personal key to understand the problem, but definitely not appropriate to be published. And then there are all the <b>'not-findings.'</b> The problems they encountered,  the sincerely worked-out theories that in the end turned out to not being 'relevant enough', or numerically unfeasible. And of course, one should not forget the <b>'already-foundings!'</b> The little things that are always cited as trivialities, and then - after hours of research - they turn out to be so complex that we better close the book again and copy the old citation …"
@@ -195,4 +195,4 @@
   subtype: workshop
   description: "An introduction into the field"
   in_programme: true
-  image: "conference_2.jpg"  
+  image: "research128x128.jpg"  
