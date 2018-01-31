@@ -15,18 +15,18 @@ email: "yrm2018@mpsd.mpg.com"
 description: "The Young Researchers’ Meeting (YRM) of the European Theoretical Spectroscopy Facility (ETSF) is an annual conference organized and attended exclusively by researchers without permanent position that work on state-of-the-art theoretical and computational methods for the study of electronic and optical properties of materials."
 baseurl: "/yrm2018.github.io"
 url: "https://lfrahm.github.io"
-permalink: "/blog/:title"
-# googleAnalyticsTrackingId: "UA-43643469-5"
-# googleAnalyticsSiteUrl: "gdg-x.github.io"
+permalink: "/news/:title"
+googleAnalyticsTrackingId: "UA-113325550-1"
+googleAnalyticsSiteUrl: "yrm2018.github.io"
 # siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
-# # Organizer Info
-# organizerName: "GDG Lviv"
-# organizerAlternateName: "Google Developer Group Lviv"
-# organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-# organizerEmail: "lviv@gdg.org.ua"
-# organizerLogo: "/img/seo/organizer-logo.png"
-# organizerLink: "http://lviv.gdg.org.ua/"
+# Organizer Info
+organizerName: "MPSD Hamburg"
+organizerAlternateName: "Max-Planck-Institut für Struktur und Dynamik der Materie"
+organizerDescription: "Das Max-Planck-Institut für Struktur und Dynamik der Materie (MPSD) ist eine außeruniversitäre Forschungseinrichtung unter der Trägerschaft der Max-Planck-Gesellschaft (MPG) und hat seinen Sitz im Hamburger Stadtteil Bahrenfeld auf dem Campus des Deutschen Elektronen-Synchrotrons DESY."
+organizerEmail: "yrm2018@mpsd.mpg.com"
+organizerLogo: "/img/partners/logo-mpdm.png"
+organizerLink: "http://www.mpsd.mpg.de/"
 
 # # Head
 # metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
@@ -50,10 +50,10 @@ navigationLinks:
  - {permalink: "/team/", text: "Team"}
  - {permalink: "/registration/", text: "Registration"} 
 #  - {permalink: "/hackathon/", text: "Hackathon"}
-# bottomNavigationLinks:
-#  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
-# rightNavigationButtons:
-#  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+bottomNavigationLinks:
+ - {permalink: "/registration/", text: "Sign up for YRM 2018"}
+rightNavigationButtons:
+ - {permalink: "/registration/", text: "Sign up for YRM 2018"}
 
 # Hero Block
 heroImage: "hero4.jpeg"
@@ -217,16 +217,16 @@ footerBlocks:
   links:
    - {link: "mailto:yrm2018@mpsd.mpg.com", text: "yrm2018@mpsd.mpg.com"}
 
-# # Blog
-# blogTitle: "Latest news"
-# blogCommentsEnabled: true
+# Blog
+blogTitle: "Latest news"
+blogCommentsEnabled: true
 # discusShortName: "devfestua"
 
 # # Speakers List Block
 # showSessions: true
 
-# # Team Block
-# teamBlockTitle: "About us"
+# Team Block
+teamBlockTitle: "About us"
 # aboutUs: "Google's services have become synonymous with simple things online. Number of technological innovations and IT industries in which Google is creating new products is enormous. It's hard to get to know all of them, but realistic. This is why people have started to gather in small local groups and share their experience. Later, the following groups have been called Google Developer Groups. GDGs can take many forms -- from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences."
 
 # Venue Find Way Block

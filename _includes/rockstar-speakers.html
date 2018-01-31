@@ -5,7 +5,7 @@
 		<div class="col-lg-10 col-lg-offset-1 rockstar-speakers-list">
 			<h3 id="rockstar-speaker-title">{{ site.rockstarSpeakersTitle }}</h3>
 			{% assign RockStartAnimationDelay = 0 %} {% for i in (0..3) %}
-			<div class="col-md-1.7142857 col-xs-3 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="{{ RockStartAnimationDelay }}">
+			<div class="col-md-3 col-xs-12 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="{{ RockStartAnimationDelay }}">
 				<div class="rockstar-speaker">
 					<div class="flow-img img-circle rockstar-speaker-img" style="background-image: url( {{ site.baseurl }}/img/people/{{site.data.speakers.[i].thumbnailUrl}})"></div>
 					<div class="name"> {{site.data.speakers[i].name}} {{site.data.speakers[i].surname}} </div>
@@ -16,9 +16,9 @@
 			<div class="clearfix"></div>
 		</div>
 		{% assign RockStartAnimationDelay = 0 %}
-		<div class="col-lg-10 col-lg-offset-1 rockstar-speakers-list">
+		<div class="col-lg-10 col-md-offset-2 rockstar-speakers-list">
 			{% for i in (4..6) %}
-			<div class="col-md-1.7142857 col-xs-3 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="{{ RockStartAnimationDelay }}">
+			<div class="col-md-3 col-xs-12 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="{{ RockStartAnimationDelay }}">
 				<div class="rockstar-speaker">
 					<div class="flow-img img-circle rockstar-speaker-img" style="background-image: url( {{ site.baseurl }}/img/people/{{site.data.speakers.[i].thumbnailUrl}})"></div>
 					<div class="name"> {{site.data.speakers[i].name}} {{site.data.speakers[i].surname}} </div>
