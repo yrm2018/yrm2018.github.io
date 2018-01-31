@@ -56,7 +56,7 @@ rightNavigationButtons:
  - {permalink: "/registration/", text: "Sign up for YRM 2018"}
 
 # Hero Block
-heroImage: "hero4.jpeg"
+heroImage: "AdobeStock_169764356.jpeg"
 heroTitle: "The 15th ETSF Young Researchers' Meeting 2018"
 eventDate: "June 4 - June 8, 2018, Hamburg, Germany"
 # typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
@@ -88,7 +88,7 @@ statisticBlock:
 latestNewsTitle: "Latest news"
 
 # Rockstar Speakers Block
-rockstarSpeakersImage: "AdobeStock_66825250_Preview.jpeg"
+rockstarSpeakersImage: "AdobeStock_132547477.jpeg"
 rockstarSpeakersCount: 7
 rockstarSpeakersTitle: "Invited speakers"
 rockstarSpeakersButtonText: "See all speakers"
