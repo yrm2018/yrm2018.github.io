@@ -1,0 +1,23 @@
+- 
+  group: "General sponsor"
+  elements: 
+    - {name: "MPSD Hamburg", description: "Max Planck Institute for the Structure and Dynamics of Matter, Hamburg, Germany", link: "http://www.mpsd.mpg.de/", imageUrl: "logo-mpdm.jpg"}
+    - {name: "Psi-K", description: "GDG Lviv - Open and volunteer geek community", link: "https://psi-k.net", imageUrl: "psi-k-crystal_high.png"}
+- 
+  group: "With support of"
+  elements: 
+    - {name: "SpingerMatarials", description: "SpingerMatarials", link: "http://materials.springer.com/", imageUrl: "logo_springer.jpg", width: "160px"}
+    # - {name: "Philips Research", description: "Philips Research", link: "https://www.philips.com/a-w/research/home.html", imageUrl: "logo_philips.jpg", width: "160px"}
+    - {name: "Jenoptik", description: "Jenoptik", link: "https://www.jenoptik.de/", imageUrl: "Jenoptik-Logo.svg.png", width: "160px"}
+# - 
+#   group: "Information partners"
+#   elements: 
+#     - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
+#     - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
+#     - {name: "GDG[x]", description: "GDG[x] - Yeah, we can fix that", link: "https://github.com/gdg-x", imageUrl: "gdg-x.svg"}
+#     - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
+#     - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
+#     - {name: "GDG[x]", description: "GDG[x] - Yeah, we can fix that", link: "https://github.com/gdg-x", imageUrl: "gdg-x.svg"}
+#     - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
+#     - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
+#     - {name: "GDG[x]", description: "GDG[x] - Yeah, we can fix that", link: "https://github.com/gdg-x", imageUrl: "gdg-x.svg"}

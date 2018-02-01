@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/yrm2018.github.io/news/moin-moin</loc>
+<lastmod>2018-02-01T07:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/yrm2018.github.io/cod/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/yrm2018.github.io/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/yrm2018.github.io/news/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/yrm2018.github.io/programme/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/yrm2018.github.io/registration/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/yrm2018.github.io/schedule/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/yrm2018.github.io/team/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/yrm2018.github.io/venue/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/yrm2018.github.io/assets/GDG_DevFest_Partnership.pdf</loc>
+<lastmod>2018-01-12T09:07:41+01:00</lastmod>
+</url>
+</urlset>

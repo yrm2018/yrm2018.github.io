@@ -1,0 +1,30 @@
+<!-- About Section -->
+<section id="about" class="about">
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1">
+            <h3>{{ site.data.programme.programmeTitle }}</h3>
+            <h6 style="margin-bottom: 50px;">{{ site.data.programme.programmeText}}</h6>
+            <div class="row about-details">
+                {% assign animationDelay = 0 %} 
+                {% for session in site.data.sessions %} 
+                    {% assign colWidth = 12 | divided_by: forloop.length %} 
+                    {% if session.in_programme %}
+                        <div id="session-{{ session.id }}" class="col-md-3 col-xs-12 flexbox-item-height" data-slot-detail="{{ day.tracks[slotIndex].title }}"
+                            data-toggle="modal" data-target="#sessionDetail-{{ session.id }}">
+                            <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}" style="cursor: pointer;">
+                                <h5 class="about-title-element">{{ session.title }}</h5>
+                                <img class="img-circle" src="{{ site.baseurl }}/img/about-section/{{ session.image }}" height="128" width="128" alt="{{ about.title }}">
+                            </div>
+                        </div>
+                        {% assign animationDelay = animationDelay | plus:500 %} 
+                        {% assign check = forloop.index | modulo:2 %} 
+                        {% if check == 0 %}
+                            <div class="clearfix visible-xs"></div>
+                        {% endif %} 
+                    {% endif %} 
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End About Section -->

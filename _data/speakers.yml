@@ -1,0 +1,58 @@
+- 
+  id: 3
+  name: "Klaas"
+  surname: "Giesbertz"
+  company: "Vrije Universiteit Amsterdam"
+  title: "Post-Doc"
+  thumbnailUrl: profile-placeholder.gif
+  rockstar: true
+- 
+  id: 4
+  name: "Christopher A. "
+  surname: "Sutton"
+  company: "Fritz Haber Institute of the Max Planck Society, Berlin"
+  title: "Post-Doc"
+  thumbnailUrl: sutton_christopher.jpg
+  rockstar: true
+- 
+  id: 5
+  name: "Fabio"
+  surname: "Caruso"
+  company: "Humboldt University of Berlin"
+  title: "Post-Doc"
+  thumbnailUrl: fabio_caruso.jpg
+  rockstar: true
+- 
+  id: 6
+  name: "Daniel"
+  surname: "Karlsson"
+  company: "University of Jyväskylä,"
+  title: "Post-Doc"
+  thumbnailUrl: DanielKarlsson.jpg
+  rockstar: true
+- 
+  id: 7
+  name: "Carolin"
+  surname: "König"
+  company: "Royal Institute of Technology (KTH), Stockholm"
+  title: "Post-Doc"
+  thumbnailUrl: carolin_koenig.jpeg
+  rockstar: true  
+- 
+  id: 8
+  name: "Laura"
+  surname: "Fanfarillo"
+  company: "SISSA “International School for Advanced Studies”, Trieste"
+  title: "Post-Doc"
+  bio: "Laura Fanfarillo holds a PhD in Physics from the University of Rome Sapienza, Italy. Her PhD was attributed for her work on “Transport properties in multichannel systems” under the supervision of C. Castellani. After a postdoctoral researcher position in the group of E. Bascones at the ICMM-CSIC in Madrid, Spain, she is now on her second postdoctoral position at SISSA in Trieste, Italy. Her successful scientific work manifests in 11 peer-reviewed articles."
+  thumbnailUrl: Laura_fanfarillo_small.jpg
+  rockstar: true
+- 
+  id: 9
+  name: "Denis"
+  surname: "Golež"
+  company: "University of Fribourg, Fribourg"
+  title: "Post-Doc"
+  bio: "In 2014, Denis Golež holds a PhD from the University of Ljubljana, Slovenia. His PhD was attributed for his work on “Dynamics of the polaron systems out of the equilibrium” under the supervision of J. Bonča. He continued with a postdoctoral position at the University of Fribourg, Switzerland in the group of P. Werner. Her successful scientific work manifests in 14 peer-reviewed articles."
+  thumbnailUrl: Golez_Denis.jpg
+  rockstar: true

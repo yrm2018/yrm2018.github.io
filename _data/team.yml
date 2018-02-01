@@ -1,0 +1,53 @@
+- 
+  id: 0
+  name: "Florian"
+  surname: "Buchholz"
+  title: "PhD student, Max Planck Institute for the Structure and Dynamics of Matter, Hamburg, Germany"
+  thumbnailUrl: Florian_Buchholz.jpg
+  team: true
+  social: 
+    - {name: "site", link: "http://www.mpsd.mpg.de/person/42355/166465"}
+- 
+  id: 1
+  name: "Lars-Hendrik"
+  surname: "Frahm"
+  title: "PhD student, I. Institute for Theoretical Physics, University of Hamburg, Hamburg, Germany"
+  thumbnailUrl: FrahmLars-Hendrik.jpg
+  team: true
+- 
+  id: 2
+  name: "Uliana"
+  surname: "Mordovina"
+  title: "PhD student, Max Planck Institute for the Structure and Dynamics of Matter, Hamburg, Germany"
+  thumbnailUrl: Uliana_Mordovina.jpg
+  team: true
+- 
+  id: 3
+  name: "Christian"
+  surname: "Schäfer"
+  title: "PhD student, Max Planck Institute for the Structure and Dynamics of Matter, Hamburg, Germany"
+  thumbnailUrl: christian_schaefer.jpg
+  team: true
+- 
+  id: 4
+  name: "Teresa"
+  surname: "Reinhard"
+  title: "PhD student, Max Planck Institute for the Structure and Dynamics of Matter, Hamburg, Germany"
+  thumbnailUrl: teresa_reinhard.jpg
+  subTeam: true
+- 
+  id: 7
+  name: "Vasil"
+  surname: "Rokaj"
+  title: "PhD student, Max Planck Institute for the Structure and Dynamics of Matter, Hamburg, Germany"
+  thumbnailUrl: Vasil_Rokaj.JPG
+  subTeam: truer
+
+- 
+  id: 7
+  name: "Davis"
+  surname: "Welakuh"
+  title: "PhD student, Max Planck Institute for the Structure and Dynamics of Matter, Hamburg, Germany"
+  thumbnailUrl: Davis_Welakuh.JPG
+  subTeam: truer
+

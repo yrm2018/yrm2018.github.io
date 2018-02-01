@@ -1,0 +1,5 @@
+- 
+  group: "Main organizer"
+  elements: 
+    - {name: "MPSD Hamburg", description: "Max Planck Institute for the Structure and Dynamics of Matter, Hamburg, Germany", link: "http://www.mpsd.mpg.de/", imageUrl: "logo-mpdm.jpg"}
+    - {name: "Universität Hamburg", description: "Max Planck Institute for the Structure and Dynamics of Matter, Hamburg, Germany", link: "https://www.uni-hamburg.de/", imageUrl: "uhh-logo-web.gif"}
