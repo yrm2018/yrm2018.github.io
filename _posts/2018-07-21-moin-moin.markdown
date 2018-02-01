@@ -5,10 +5,9 @@ date:   2018-01-31 07:00:00
 isStaticPost: false
 ---
 
-We are glad to announce that the Young-Researcher meeting 2018, organized in the beautiful heart of the north Hamburg, is open for [registration](http://yrm2018.github.io).
+We are glad to announce that the 15th ETSF Young Researchers' Meeting 2018, organized in the beautiful heart of Hamburg, is open for [registration](http://yrm2018.github.io).
 Feel invited to this novel scientific and social experience, now even better!
 The deadline for abstracts is March 15th.
-Further information regarding financial connections will follow soon. 
 
 With best regards,
 your organization committee
