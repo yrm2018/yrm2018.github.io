@@ -7,7 +7,7 @@
   group: "With support of"
   elements: 
     - {name: "SpingerMatarials", description: "SpingerMatarials", link: "http://materials.springer.com/", imageUrl: "logo_springer.jpg", width: "160px"}
-    - {name: "Philips Research", description: "Philips Research", link: "https://www.philips.com/a-w/research/home.html", imageUrl: "logo_philips.jpg", width: "160px"}
+    # - {name: "Philips Research", description: "Philips Research", link: "https://www.philips.com/a-w/research/home.html", imageUrl: "logo_philips.jpg", width: "160px"}
     - {name: "Jenoptik", description: "Jenoptik", link: "https://www.jenoptik.de/", imageUrl: "Jenoptik-Logo.svg.png", width: "160px"}
 # - 
 #   group: "Information partners"

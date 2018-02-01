@@ -51,9 +51,9 @@ navigationLinks:
  - {permalink: "/registration/", text: "Registration"} 
 #  - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
- - {permalink: "/registration/", text: "Sign up for YRM 2018"}
+ - {permalink: "/registration/", text: "Register for the YRM 2018"}
 rightNavigationButtons:
- - {permalink: "/registration/", text: "Sign up for YRM 2018"}
+ - {permalink: "/registration/", text: "Register for the YRM 2018"}
 
 # Hero Block
 heroImage: "AdobeStock_169764356.jpeg"

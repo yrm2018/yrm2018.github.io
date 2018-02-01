@@ -1,13 +1,41 @@
 ---
 layout: post
 title:  "Moin! Moin!"
-date:   2018-01-31 07:00:00
+date:   2018-02-01 06:00:00
 isStaticPost: false
 ---
+#### Welcome to Hamburg!
+We are glad to announce that the *15th ETSF Young Researchers' Meeting 2018*, organized in the beautiful heart of Hamburg, is open for [registration](/registration/). Feel invited to this novel scientific and social experience, now even better!
 
-We are glad to announce that the 15th ETSF Young Researchers' Meeting 2018, organized in the beautiful heart of Hamburg, is open for [registration](http://yrm2018.github.io).
-Feel invited to this novel scientific and social experience, now even better!
-The deadline for abstracts is March 15th.
+The conference will cover sessions on:
+  1. Old and new approaches towards material design
+  2. Theoretical spectroscopy
+  3. Modelling properties of complex systems
+  4. Strongly Correlated Electrons, Magnetism, and Topological Phases of Matter
+  5. Fermion-boson systems in and out of equilibrium
+
+additionally we have
+
+  1. a poster session
+  2. an open session
+  3. an industry Session
+
+Refer to the [programme](/programmme/) for detailed descriptions and the list of invited speakers.
+
+**We are really looking forward to your contribution!**
+
+#### Registration
+
+We have to plans for registration:
+
+  * Including accommodation the fee is **100€**. This includes the conference, housing for five nights, lunch on four days, a harbor tour, a special social event, and the conference BBQ.
+
+  * Without accommodation the fee is **50€**.  This includes the conference, lunch on four days, a harbor tour, a special social event, and the conference BBQ.
+
+__The deadline for registration is March 15th.__
+
+Feel free to [email us](mailto:yrm2018@mpsd.mpg.com) at any time.
 
 With best regards,
+
 your organization committee
