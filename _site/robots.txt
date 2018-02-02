@@ -1,1 +1,1 @@
-Sitemap: https://yrm2018.github.io/sitemap.xml
+Sitemap: http://localhost:4000/yrm2018.github.io/sitemap.xml
