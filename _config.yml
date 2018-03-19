@@ -11,7 +11,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 # Site Settings
 title: "ETSF Young Researchers' Meeting 2018"
-email: "yrm2018@mpsd.mpg.com"
+email: " yrm2018@mpsd.mpg.de"
 description: "The Young Researchers’ Meeting (YRM) of the European Theoretical Spectroscopy Facility (ETSF) is an annual conference organized and attended exclusively by researchers without permanent position that work on state-of-the-art theoretical and computational methods for the study of electronic and optical properties of materials."
 baseurl: "/"
 url: "https://yrm2018.github.io"
@@ -24,7 +24,7 @@ googleAnalyticsSiteUrl: "yrm2018.github.io"
 organizerName: "MPSD Hamburg"
 organizerAlternateName: "Max-Planck-Institut für Struktur und Dynamik der Materie"
 organizerDescription: "Das Max-Planck-Institut für Struktur und Dynamik der Materie (MPSD) ist eine außeruniversitäre Forschungseinrichtung unter der Trägerschaft der Max-Planck-Gesellschaft (MPG) und hat seinen Sitz im Hamburger Stadtteil Bahrenfeld auf dem Campus des Deutschen Elektronen-Synchrotrons DESY."
-organizerEmail: "yrm2018@mpsd.mpg.com"
+organizerEmail: " yrm2018@mpsd.mpg.de"
 organizerLogo: "/img/partners/logo-mpdm.png"
 organizerLink: "http://www.mpsd.mpg.de/"
 
@@ -215,7 +215,7 @@ footerBlocks:
  -
   title: "Contacts"
   links:
-   - {link: "mailto:yrm2018@mpsd.mpg.com", text: "yrm2018@mpsd.mpg.com"}
+   - {link: "mailto: yrm2018@mpsd.mpg.de", text: " yrm2018@mpsd.mpg.de"}
 
 # Blog
 blogTitle: "Latest news"
