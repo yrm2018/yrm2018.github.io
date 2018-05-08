@@ -32,11 +32,11 @@
   rockstar: true
 - 
   id: 7
-  name: "Carolin"
-  surname: "König"
-  company: "Royal Institute of Technology (KTH), Stockholm"
+  name: "Erik"
+  surname: "Hedegård"
+  company: "Lund University"
   title: "Post-Doc"
-  thumbnailUrl: carolin_koenig.jpeg
+  thumbnailUrl: erik_hedegard.jpeg
   rockstar: true  
 - 
   id: 8

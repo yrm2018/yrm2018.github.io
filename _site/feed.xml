@@ -3,8 +3,82 @@
   <channel>
     <title>ETSF Young Researchers' Meeting 2018</title>
     <description>The Young Researchers’ Meeting (YRM) of the European Theoretical Spectroscopy Facility (ETSF) is an annual conference organized and attended exclusively by researchers without permanent position that work on state-of-the-art theoretical and computational methods for the study of electronic and optical properties of materials.</description>
-    <link>http://localhost:4000/yrm2018.github.io/</link>
-    <atom:link href="http://localhost:4000/yrm2018.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4000//</link>
+    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Registration Closed</title>
+        <description>&lt;h4 id=&quot;registration-closed&quot;&gt;Registration Closed&lt;/h4&gt;
+
+&lt;p&gt;The registration is now closed. Thank you to all registrants! We are really looking forward to welcome you in Hamburg!&lt;/p&gt;
+
+&lt;h4 id=&quot;payment-of-the-conference-fee&quot;&gt;Payment of the Conference Fee&lt;/h4&gt;
+
+&lt;p&gt;Please transfer the conference fee to the following bank account:&lt;/p&gt;
+
+&lt;p&gt;Name of the bank: Deutsche Bundesbank
+   Account Holder: UHH
+   IBAN: DE68200000000020101531
+   BIC: MARKDEF1200
+   Purpose: 100044428&lt;/p&gt;
+
+&lt;p&gt;And please also state your name if you do not send from your private account. We will send you an invoice in the next couple of days if you have requested one.&lt;/p&gt;
+
+&lt;p&gt;The conference fee is&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;100€&lt;/strong&gt; Including Accommodation&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;50€&lt;/strong&gt; Without accommodation&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Please transfer the fee by April 30th.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you have questions or encountering any issues please feel free to &lt;a href=&quot;mailto: yrm2018@mpsd.mpg.de&quot;&gt;email us&lt;/a&gt; at any time.&lt;/p&gt;
+
+&lt;p&gt;With best regards,&lt;/p&gt;
+
+&lt;p&gt;your organization committee&lt;/p&gt;
+</description>
+        <pubDate>Thu, 12 Apr 2018 09:45:00 +0200</pubDate>
+        <link>http://localhost:4000//news/Registration-Closed</link>
+        <guid isPermaLink="true">http://localhost:4000//news/Registration-Closed</guid>
+      </item>
+    
+      <item>
+        <title>Second round for registration</title>
+        <description>&lt;h4 id=&quot;second-round-for-registration&quot;&gt;Second round for registration&lt;/h4&gt;
+
+&lt;p&gt;The first round for registration ended on March 25th, however we are happy to announce we will have a second round with a couple free slots availible:&lt;/p&gt;
+
+&lt;h4 id=&quot;registration&quot;&gt;Registration&lt;/h4&gt;
+
+&lt;p&gt;We have to plans for registration:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Including accommodation the fee is &lt;strong&gt;100€&lt;/strong&gt;. This includes the conference, housing for five nights, lunch on four days, a harbor tour, a special social event, and the conference BBQ.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Without accommodation the fee is &lt;strong&gt;50€&lt;/strong&gt;.  This includes the conference, lunch on four days, a harbor tour, a special social event, and the conference BBQ.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;The deadline for registration is April 8th.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Feel free to &lt;a href=&quot;mailto: yrm2018@mpsd.mpg.de&quot;&gt;email us&lt;/a&gt; at any time.&lt;/p&gt;
+
+&lt;p&gt;With best regards,&lt;/p&gt;
+
+&lt;p&gt;your organization committee&lt;/p&gt;
+</description>
+        <pubDate>Tue, 27 Mar 2018 08:00:00 +0200</pubDate>
+        <link>http://localhost:4000//news/Registration</link>
+        <guid isPermaLink="true">http://localhost:4000//news/Registration</guid>
+      </item>
     
       <item>
         <title>Moin! Moin!</title>
@@ -45,7 +119,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;The deadline for registration is March 15th.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The deadline for registration is March 25th.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Feel free to &lt;a href=&quot;mailto: yrm2018@mpsd.mpg.de&quot;&gt;email us&lt;/a&gt; at any time.&lt;/p&gt;
 
@@ -54,8 +128,8 @@
 &lt;p&gt;your organization committee&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Feb 2018 07:00:00 +0100</pubDate>
-        <link>http://localhost:4000/yrm2018.github.io/news/moin-moin</link>
-        <guid isPermaLink="true">http://localhost:4000/yrm2018.github.io/news/moin-moin</guid>
+        <link>http://localhost:4000//news/moin-moin</link>
+        <guid isPermaLink="true">http://localhost:4000//news/moin-moin</guid>
       </item>
     
   </channel>
