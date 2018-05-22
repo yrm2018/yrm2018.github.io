@@ -42,7 +42,7 @@
       startTime: "10:30",
       endTime: "11:00",
       title: "Coffee break",
-      description: "The best time to talk with speakers and attendees",
+      description: "The best time to talk to speakers and other participants",
       service: true,
       place: "CFEL",
     	sessionIds: [201]
@@ -103,7 +103,7 @@
       startTime: "13:00",
       endTime: "14:30",
       title: "Lunch break",
-      description: "The best time to talk with speakers and attendees",
+      description: "The best time to talk to speakers and other participants",
       service: true,
       place: "CFEL",
     }
@@ -174,7 +174,7 @@
       startTime: "15:50",
       endTime: "16:20",
       title: "Coffee break",
-      description: "The best time to talk with speakers and attendees",
+      description: "The best time to talk to speakers and other participants",
       service: true,
       place: "CFEL",
     	sessionIds: [201]
@@ -262,7 +262,7 @@
       startTime: "10:30",
       endTime: "11:00",
       title: "Coffee break",
-      description: "The best time to talk with speakers and attendees",
+      description: "The best time to talk to speakers and other participants",
       service: true,
       place: "CFEL",
     	sessionIds: [201]
@@ -352,7 +352,7 @@
       startTime: "13:10",
       endTime: "14:40",
       title: "Lunch break",
-      description: "The best time to talk with speakers and attendees",
+      description: "The best time to talk to speakers and other participants",
       service: true,
       place: "CFEL",
     }               
@@ -384,7 +384,7 @@
       startTime: "15:50",
       endTime: "16:20",
       title: "Coffee break",
-      description: "The best time to talk with speakers and attendees",
+      description: "The best time to talk to speakers and other participants",
       service: true,
       place: "CFEL",
     	sessionIds: [201]
@@ -472,7 +472,7 @@
       startTime: "10:30",
       endTime: "11:00",
       title: "Coffee break",
-      description: "The best time to talk with speakers and attendees",
+      description: "The best time to talk to speakers and other participants",
       service: true,
       place: "CFEL",
     	sessionIds: [201]
@@ -521,7 +521,7 @@
       startTime: "13:00",
       endTime: "14:30",
       title: "Lunch break",
-      description: "The best time to talk with speakers and attendees",
+      description: "The best time to talk to speakers and other participants",
       service: true,
       place: "CFEL",
     }    
@@ -553,7 +553,7 @@
       startTime: "15:40",
       endTime: "16:10",
       title: "Coffee break",
-      description: "The best time to talk with speakers and attendees",
+      description: "The best time to talk to speakers and other participants",
       service: true,
       place: "CFEL",
     	sessionIds: [201]
@@ -637,7 +637,7 @@
       startTime: "11:00",
       endTime: "11:30",
       title: "Coffee break",
-      description: "The best time to talk with speakers and attendees",
+      description: "The best time to talk to speakers and other participants",
       service: true,
       place: "CFEL",
     	sessionIds: [201]
@@ -707,7 +707,7 @@
       startTime: "13:00",
       endTime: "14:00",
       title: "Lunch break",
-      description: "The best time to talk with speakers and attendees",
+      description: "The best time to talk to speakers and other participants",
       service: true,
       place: "CFEL",
     }   
@@ -850,7 +850,7 @@
       startTime: "10:30",
       endTime: "11:20",
       title: "Coffee break+",
-      description: "The best time to talk with speakers and attendees",
+      description: "The best time to talk to speakers and other participants",
       service: true,
       place: "CFEL",
     	sessionIds: [201]
