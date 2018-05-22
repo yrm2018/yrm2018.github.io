@@ -35,16 +35,8 @@
         speakerID: 3,
         sessionIds: [202],
         content: [
-          para: "The design and synthesis of novel materials is one of the big challenges in theoretical material science, which requires an accurate description of equilibrium properties of atoms, molecules and solids from first principles.",
-          para: "Due to its numerical efficiency, density-functional theory (DFT) [1] remains the most widespread approach for electronic structure predictions. Hence, there is an ongoing effort to overcome known shortcomings such as the delocalization error and spurious self interactions. The huge amount of DFT calculations performed worldwide has triggered the creation of online electronic structure databases [2]. These databases not only serve as repositories for electronic structure calculations but also offer the use of novel approaches developed in computer science, e.g. machine learning, to analyze the data in order to guide the design of novel materials [3,4].",
-          para: "In this session, we invite contributions focusing on the development of approximations for ground-state electronic structure methods and the application of big data analysis tools for material research.",
+          para: "TBA"
         ],
-        references: [
-          cite: "[1] P. Hohenberg, and W. Kohn, Phys. Rev. 136, B864 (1964).",
-          cite: "[2] NOMAD Repository (https://repository.nomad-coe.eu/), Material Genome Initiative (https://www.mgi.gov/)",
-          cite: "[3] D. Larbalestier, A. Gurevich, D. M. Feldmann, and A. Polyanskii, Nature 414, 368-377 (2001).",
-          cite: "[4] J. Greeley, T. Jaramillo, J. Bonde, I. Chorkendorff, and J. Nørskov, Nature Materials 1752, 10.1038 (2006).    "
-        ]
     }
     - {
       id: 2,
