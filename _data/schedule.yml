@@ -33,7 +33,6 @@
         endTime: "10:30",
         title: "Introduction",
         speakerID: 3,
-        sessionIds: [202],
         content: [
           para: "TBA"
         ],
