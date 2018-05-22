@@ -1,89 +1,938 @@
 - 
   date: "2018-07-03"
-  dateReadable: "June 3"
+  dateReadable: "Sunday, June 3rd"
   tracks: 
-    - {title: "Some place to meet", color: "#90be4e"}
+    - {title: "Hotel Budapester Hof", color: "#90be4e"}
   timeslots:
     - {
     	startTime: "18:00",
-    	endTime: "22:00",
+      endTime: "22:00",
+      title: "Welcome reception",
+      description: "First get together and meeting new people",
+      service: true,
     	sessionIds: [101]
     }
 - 
   date: "2018-07-04"
-  dateReadable: "June 4"
+  dateReadable: "Monday, June 4th"
   tracks: 
-    - {title: "CFEL", color: "#90be4e"}
+    - {title: "Center for Free-Electron Laser Science Room I - II", color: "#90be4e"}
   timeslots:
     - {
     	startTime: "8:30",
-    	endTime: "9:00",
+      endTime: "9:00",
+      title: "Registration",
+      description: "Pick up your badge and your booklet",
+      service: true,
+      place: "CFEL",
     	sessionIds: [201]
     }
     - {
+        id: 1,
         startTime: "9:00",
         endTime: "10:30",
-        sessionIds: [202]
+        title: "Introduction",
+        speakerID: 3,
+        sessionIds: [202],
+        content: [
+          para: "The design and synthesis of novel materials is one of the big challenges in theoretical material science, which requires an accurate description of equilibrium properties of atoms, molecules and solids from first principles.",
+          para: "Due to its numerical efficiency, density-functional theory (DFT) [1] remains the most widespread approach for electronic structure predictions. Hence, there is an ongoing effort to overcome known shortcomings such as the delocalization error and spurious self interactions. The huge amount of DFT calculations performed worldwide has triggered the creation of online electronic structure databases [2]. These databases not only serve as repositories for electronic structure calculations but also offer the use of novel approaches developed in computer science, e.g. machine learning, to analyze the data in order to guide the design of novel materials [3,4].",
+          para: "In this session, we invite contributions focusing on the development of approximations for ground-state electronic structure methods and the application of big data analysis tools for material research.",
+        ],
+        references: [
+          cite: "[1] P. Hohenberg, and W. Kohn, Phys. Rev. 136, B864 (1964).",
+          cite: "[2] NOMAD Repository (https://repository.nomad-coe.eu/), Material Genome Initiative (https://www.mgi.gov/)",
+          cite: "[3] D. Larbalestier, A. Gurevich, D. M. Feldmann, and A. Polyanskii, Nature 414, 368-377 (2001).",
+          cite: "[4] J. Greeley, T. Jaramillo, J. Bonde, I. Chorkendorff, and J. Nørskov, Nature Materials 1752, 10.1038 (2006).    "
+        ]
     }
     - {
-    	startTime: "10:00",
-    	endTime: "10:30",
-    	sessionIds: [307]
+      id: 2,
+      startTime: "10:30",
+      endTime: "11:00",
+      title: "Coffee break",
+      description: "The best time to talk with speakers and attendees",
+      service: true,
+      place: "CFEL",
+    	sessionIds: [201]
     }
     - {
-    	startTime: "10:30",
-    	endTime: "13:00",
-    	sessionIds: [203]
+        id: 3,
+        startTime: "11:00",
+        endTime: "11:50",
+        title: "High-throughput Screening of Novel Semiconductors ",
+        speakerID: 4,
+        content: [
+          para: "TBA",
+        ],
+    }
+    - {
+        id: 4,
+        startTime: "11:50",
+        endTime: "12:10",
+        title: "Many-body calculations of plasmon satellites in angle-resolved photoelectron spectra",
+        speakername: "Amy",
+        speakerlastname: "Kirwan",
+        speakercompany: "Tyndall Nationla Institute, UCC",
+        speakertitle: "PhD Student",
+        content: [
+          para: "To address the ever increasing demand for improved optical devices, new efficient lasers and modulators are required, which are,  ideally, compatible with silicon. Germanium offers this possibility in principle, although it is an indirect gap material. Recently it has been proposed to circumvent the problem of an indirect gap material by growing germanium carbide (Ge:C) alloys. In doing so it has been proposed that a direct gap material at very low C content can be achieved, which is capable for use in lasers and other silicon photonic devices. However, very little is known about its fundamental properties. We aim here to establish an accurate and detailed understanding of the electronic properties of Ge:C alloys. We do so by applying hybrid functional density functional theory to gain insight into the electronic structure of these alloys. To study band mixing effects, which are crucial for understanding and predicting optical properties, calculations have been performed at different cell pressures. Such an approach offers the  possibility for future comparison with experiment. We cover here the experimentally relevant C concentration range of approx. 1%. Our calculations reveal strong band mixing with as little as 0.78% C. These mixing effects affect the band gap variation with pressure significantly and finally shed light onto the nature of the band gap of these novel materials.",          para: "This talk will introduce the fundamental concepts needed to interpret plasmon satellites in photoelectron spectra, and it will review recent progress on first-principles calculations of these features using many-body perturbation theory.",
+        ],
+    }
+    - {
+        id: 5,
+        startTime: "12:20",
+        endTime: "12:40",
+        speakername: "Matheus",
+        speakerlastname: "Rodríguez Álvarez",
+        speakertitle: "PhD Student",
+        speakercompany: "Martin-Luther-Universität Halle-Wittenberg",
+        title: "Systematic Lanthanides search for novel graphite intercalated superconductors",
+        content: [
+          para: "The discovery of the highest critical temperature (Tc) graphite intercalated compound CaC6  (Weller, 2005) with a Tc of 11.5K at zero pressure opened two paths: the  extensive search  for  novel high Tc graphite intercalated compounds and the solution to open fundamental questions about the underlying superconducting mechanism in these compounds. The research in this area is focused in changing the intercalant with different metals as charge transfer elements increasing the electron-phonon coupling and analyzing the interplay between the metal and the graphite layers to explain the pairing mechanism that leads to superconductivity. Additionally, the studies on these compounds up to date show that there is not a simple relation between the different intercalants and the new critical temperatures obtained to new superconducting graphite intercalated compounds.",
+          para: "In this work we present a systematic study of lanthanides as intercalants of graphite layers to  look for new possible high Tc superconductors."
+        ],
+    }
+    - {
+        id: 6,
+        startTime: "12:40",
+        endTime: "13:00",
+        speakername: "Conrad",
+        speakerlastname: "Steigemann",
+        speakertitle: "PhD Student",
+        speakercompany: "Institut für Physik, MLU Halle-Wittenberg",
+        title: "Stability of carbon clathrates: a theoretical investigation",
+        content: [
+          para: "Due to their structure, clathrates naturally offer a good possibility to be doped by a variety of atoms to change the properties of the scaffold element drastically. Besides germanium and silicon showing clathrate structures, no stable clathrates of carbon could be found yet. Studies [Zeng et al. 2015] suggest a substitution of single carbon atoms with boron to stabilise the structure.",
+          para: "In this contribution, we perform extensive calculations of the energy landscape of carbon clathrates in order to understand if these can indeed be synthesized. This will be done by using a combination of high-throughput density-functional theory and global structural prediction methods."
+        ],
+    }
+    - {
+      id: 7,
+      startTime: "13:00",
+      endTime: "14:30",
+      title: "Lunch break",
+      description: "The best time to talk with speakers and attendees",
+      service: true,
+      place: "CFEL",
+    }
+    - {
+        id: 8,
+        startTime: "14:30",
+        endTime: "14:50",
+        speakername: "Tristan",
+        speakerlastname: "Müller",
+        speakertitle: "PhD Student",
+        speakercompany: "MPI of Microstructure Physics",
+        title: "Ultra long-range ab-initio calculations",
+        content: [
+          para: "We propose a generalization of the Bloch state which involves an additional sum over a finer grid in reciprocal space around each \textbf{k}-point. This allows for ab-initio calculations of ultra long-range modulations in the density and magnetization which may involve millions of unit cells but with an efficiency rivaling that of a single unit cell. Thus physical effects on the micron length scale, which nevertheless depend on microscopic details, can be computed exactly within density functional theory. Our method is applicable for both, static and time-dependent systems."
+        ]
+    }    
+    - {
+        id: 9,
+        startTime: "14:50",
+        endTime: "15:10",
+        speakername: "Djordje",
+        speakerlastname: "Dangic",
+        speakertitle: "PhD Student",
+        speakercompany: "Tyndall National Institute, Cork, R. Ireland",
+        title: "Negative Thermal expansion of GeTe near ferroelectric phase transition from first principles",
+        content: [
+          para: "Germanium Telluride (GeTe) is a well-known ferroelectric and thermoelectric material that undergoes structural phase transition from a rhombohedral to the rocksalt structure at ~600-700 K. It has been shown recently that increasing the proximity to such phase transition in (Pb,Ge)Te alloys leads to significantly reduced lattice thermal conductivity, and potentially enhanced thermoelectric figure of merit. Here, we analyze the influence of the ferroelectric phase transition on the thermo-mechanical properties of GeTe, such as thermal expansion and elastic constants. We model thermal expansion using density functional theory by minimizing Helmholtz free energy using the elastic and harmonic approximations and Gruneisen theory. Accounting for the temperature dependence of elastic constants, we obtain the temperature variation of the structural parameters of rhombohedral GeTe in very good agreement with experiment. Most importantly, we correctly reproduce a negative volume thermal expansion of GeTe near the phase transition at ~700 K. Our model shows that the coupling between acoustic and soft transverse optical modes is the dominant mechanism that induces negative thermal expansion."
+        ]
+    }
+    - {
+        id: 10,
+        startTime: "15:10",
+        endTime: "15:30",
+        speakername: "Mário",
+        speakerlastname: "Marques",
+        speakertitle: "PhD Student",
+        speakercompany: "Martin-Luther-Universität Halle",
+        title: "Artificial Neural Networks Force Fields",
+        content: [
+          para: "The evaluation of potential energy surfaces lies at the heart of many problems in materials science. Density functional theory is often used for this task, but it quickly becomes impractical for systems with hundreds or thousands of atoms.",
+          para: "In this contribution we describe a methodology, based on Behler-Parrinelo approach for artificial neural networks, to solve this problem.",
+          para: "We obtain training and test sets from a fully unbiased approach based on global structural prediction techniques.",
+          para: "We extend the back propagation method to consider the error in the forces and stress and we discuss the suitability of a few activation functions. Finally, we develop force fields for Si and Ge, and present some applications to the calculation of point defects and phase diagrams."
+        ]
+    }     
+    - {
+        id: 11,
+        startTime: "15:30",
+        endTime: "15:50",
+        speakername: "Jens",
+        speakerlastname: "Bröder",
+        speakertitle: "PhD Student",
+        speakercompany: "Forschungszentrum Jülich GmbH, PGI-1/IAS-1",
+        title: "The AiiDA-FLEUR package, how you can predict XPS spectra with it",
+        content: [
+          para: "We present some workflows of the AiiDA-FLEUR [1] package, allowing the user to easily perform complex tasks with the all-electron density functional theory (DFT) code FLEUR [2] through AiiDA [3] (Automated interactive Infrastructure and database for material science). The package empowers users with the ability to run FLEUR simulations just with python code and connects them to the tools of the python universe (i.e.\ Jupyter, pymatgen, ase, ...).",
+          para: "Further we focus on certain results of the core level shifts, turn-key solutions for X-ray photoelectron spectroscopy (XPS) results of bulk materials and surfaces for surface science. These ab initio results are compared to experimental data (i.e.\ Beryllium compounds) and we demonstrate how they help with spectra interpretation.",
+          para: "We acknowledge partial support from the EU Centre of Excellence \"MaX Materials Design at the Exascale\" (Grant No. 676598).",
+        ],
+        references: [
+          cite: "[1] www.github.com/broeder-j/aiida-fleur.",
+          cite: "[2] www.flapw.de.",
+          cite: "[3] G. Pizzi, et al. Comp. Mat. Sci. 111, 218-230 (2016).",
+        ]
+    }
+    - {
+      id: 12,
+      startTime: "15:50",
+      endTime: "16:20",
+      title: "Coffee break",
+      description: "The best time to talk with speakers and attendees",
+      service: true,
+      place: "CFEL",
+    	sessionIds: [201]
+    }
+    - {
+      id: 13,
+      startTime: "16:20",
+      endTime: "17:20",
+      title: "Scientific Speed Dating",
+      description: "Show some love",
+      service: true,
+      place: "CFEL",
+    	sessionIds: [201]
+    }
+    - {
+      id: 14,
+      startTime: "17:20",
+      endTime: "18:30",
+      title: "Free time and transportation",
+      description: "",
+      service: true,
+      place: "CFEL",
+    	sessionIds: [201]
+    }
+    - {
+      id: 15,
+      startTime: "18:30",
+      endTime: "22:00",
+      title: "Harbour Tour",
+      description: "",
+      service: true,
+      place: "CFEL",
+    }         
+- 
+  date: "2018-06-05"
+  dateReadable: "Tuesday, June 5th"
+  tracks: 
+    - {title: "Center for Free-Electron Laser Science Room I - II", color: "#90be4e"}
+  timeslots: 
+    - {
+        id: 16,
+        startTime: "9:00",
+        endTime: "9:50",
+        title: "Many-body calculations of plasmon satellites in angle-resolved photoelectron spectra",
+        speakerID: 5,
+        content: [
+          para: "The interaction of electrons with plasmons (collective charge-density fluctuations) influences profoundly the spectral properties of solids revealed by photoemission spectroscopy experiments, underpinning, e.g., the emergence of lifetimes effects and the formation of satellites.",
+          para: "This talk will introduce the fundamental concepts needed to interpret plasmon satellites in photoelectron spectra, and it will review recent progress on first-principles calculations of these features using many-body perturbation theory.",
+        ],
+    }
+    - {
+        id: 17,
+        startTime: "9:50",
+        endTime: "10:10",
+        speakername: "Jaakko",
+        speakerlastname: "Koskelo",
+        speakertitle: "PostDoc",
+        speakercompany: "École Polytechnique",
+        title: "Dynamical screening in homogenous electron gas from Bethe-Salpeter equation",
+        content: [
+          para: "There are ongoing efforts to calculate properties of real materials from quantities calculated in model systems^{1,2}. This can be done by designing an effective potential for a chosen observable and importing it from a model system thanks to a suitable connector. The relevant effective potential can be calculated in the model once for all in order to be imported in various real materials. This calls for a comprehensive characterisation of the model system.",
+          para: "In this contribution, we focus on the density-density response function chi in homogenous electron gas (HEG) calculated from the Bethe-Salpeter equation (BSE). We examine the performance of the standard BSE methodology in HEG by comparing to approximations from time-dependent density-functional theory. We study a wide range of momentum transfers q and Wigner-Seitz radii r_s and look for phenomena like the appearance of the so-called \"ghost exciton\"^3.",
+        ],
+        references: [
+          cite: "[1] M. Panholzer et al, arXiv:1708.02992.",
+          cite: "[2] M. Vanzini et al, arXiv:1708.02450.",
+          cite: "[3] Y. Takada, Phys. Rev. B 94, 245106 (2016)..",
+        ]
+    }    
+    - {
+        id: 18,
+        startTime: "10:10",
+        endTime: "10:30",
+        speakername: "Matt",
+        speakerlastname: "Hodgson",
+        speakercompany: "Max-Planck-Institut für Mikrostrukturphysik",
+        speakertitle: "PostDoc",
+        title: "The GW self-screening error and its correction using a local density functional",
+        content: [
+          para: "The self-screening error in electronic structure theory is the part of the self-interaction error that would remain within the GW approximation if the exact dynamically screened Coulomb interaction W were used, causing each electron to artificially screen its own presence. This introduces error into the electron density and ionisation potential. We propose a simple, computationally efficient correction to GW calculations in the form of a local density functional, obtained using a series of finite training systems; in tests, this eliminates the self-screening errors in the electron density and ionisation potential.",
+        ]
+    }     
+    - {
+      id: 19,
+      startTime: "10:30",
+      endTime: "11:00",
+      title: "Coffee break",
+      description: "The best time to talk with speakers and attendees",
+      service: true,
+      place: "CFEL",
+    	sessionIds: [201]
+    }       
+    - {
+        id: 20,
+        startTime: "11:00",
+        endTime: "11:20",
+        speakername: "Mike",
+        speakerlastname: "Entwistle",
+        speakercompany: "University of York",
+        speakertitle: "PhD Student",
+        title: "Exact TDDFT exchange-correlation kernels for optical spectra",
+        content: [
+          para: "Time-dependent density-functional theory (TDDFT) is in principle a powerful technique for simulating the time-evolution of systems of interacting electrons. Whilst TDDFT has had much notable success, the usual adiabatic functionals within the linear response regime fail badly when applied to problems such as optical absorption spectra. We present an exploration of the properties of exact TDDFT functionals for model finite systems, with a focus on the density-response function and optical absorption spectrum, using our iDEA code. We are able to calculate exact interacting density-response functions, and hence exact (frequency-dependent) exchange-correlation kernels (f_xc) for these simple 1D systems. We explore the features missing in commonly used approximations.",
+        ]
+    }        
+    - {
+        id: 21,
+        startTime: "11:20",
+        endTime: "11:40",
+        speakername: "Nisha",
+        speakerlastname: "Singh",
+        speakercompany: "Max-Planck Institute of Microstructure Physics",
+        speakertitle: "PhD Student",
+        title: "Magnetic Exciations in TDDFT with GGA kernel",
+        content: [
+          para: "The low energy excitations are of utmost importance for understanding the electronic, magnetic, and thermodynamical properties of any material. Theoretically, TDDFT within the linear regime, can successfully capture these low energy charge and spin excitations. However, it encapsulates the electron-electron interactions of the many-body system in the exchange-correlation (XC) kernel, which for practical applications must be approximated. Despite the plethora of approximations for the XC energy functional only a few have been used for the XC kernel. Out of these, only the ALDA kernel has been implemented and applied to study the magnetic excitations. In the work presented here we climb up the Jacob's ladder of functionals and calculate the kernel for GGA functionals. The performance of the GGA kernel is studied by calculating the magnon spectra for simple ferromagnets in the collinear configuration.",
+        ]
+    }
+    - {
+        id: 22,
+        startTime: "11:40",
+        endTime: "12:00",
+        speakername: "Khadijeh",
+        speakerlastname: "Khalili",
+        speakercompany: "Technical University of Denmark",
+        speakertitle: "PhD Student",
+        title: "Calculation of Time-Resolved X-ray Absorption Spectra of Vibrationally Driven Hole Dynamics in Molecules",
+        content: [
+          para: "We investigate charge transfer dynamics following the UV-photoionization in low band-gap polymer materials with application in organic photovoltaics. As a model, we examine the potential of time-resolved x-ray absorption spectroscopy to monitor the charge transfer dynamics upon photoionization in the Thiophene-Benzothiadiazole (TBT) molecule with two distinguishable sulphur atoms, which makes it appropriate for this kind of study. The non-adiabatic dynamics of TBT is modelled using on-the-fly non-adiabatic molecular dynamics simulations based on Tully's surface hopping approach using the XMOLECULE electronic structure toolkit [Struct. Dyn. 2, 041707 (2015)]. For snapshots at various time-delays, the sulphur K-edge absorption lines in the time-resolved x-ray absorption spectrum reflect the ultrafast electron dynamics in the molecule.",
+        ]
+    }     
+    - {
+        id: 23,
+        startTime: "12:10",
+        endTime: "12:30",
+        speakername: "Chang-Ming",
+        speakerlastname: "Wang",
+        speakercompany: "Max Planck Institute for the Structure and Dynamics of Matter",
+        speakertitle: "PhD Student",
+        title: "Ab-initio Approach for X-Ray Absorption in an Aluminium Thin Film",
+        content: [
+          para: "X-ray laser has become one of the most powerful tools for studying properties of materials in modern physics. In its applications, deeply bounded core electrons in the system generally pose difficulties in theoretical studies. For instance, in the research of transmission through a thin Al film, core excitation plays a salient role in absorption of photons. And, to describe the ultra-fast dynamics of this excitation(faster than Auger decay), a real-time approach like Time-Dependent Density Functional Theory(TDDFT) is necessary. However numerically it's hard to capture the motion of holes from the core excitation as they concentrate locally near each nucleus. This indicates the need for a huge amount of grid points in real space, thereby making simulations unfeasible.",
+          para: "In this talk, I will present our preliminary ab-initio study for this X-ray transmission by Octopus - a powerful program for simulations with real-space and real-time TDDFT. It is found that the general behavior of X-ray transmission in the experiment is reproduced, suggesting the robustness of our method. This new approach opens up the possibility for more complete knowledge of X-ray absorption in an Al thin film.",
+        ]
+    }         
+    - {
+        id: 24,
+        startTime: "12:30",
+        endTime: "12:50",
+        speakername: "Rubén",
+        speakerlastname: "Ferradás",
+        speakercompany: "Laboratoire de Chimie et Physique Quantiques, IRSAMC, Université de Toulouse, France",
+        speakertitle: "PostDoc",
+        title: "Electric and magnetic properties of solids from the current density",
+        content: [
+          para: "The evaluation of the macroscopic polarization and magnetization of solids is problematic when periodic boundary conditions are used because surface effects are artificially removed. This poses a problem unless surface effects can be reformulated in terms of bulk quantities\footnote{J. Chem. Phys. 112, 6517 ; Phys. Rev. B 71, 155108 (2005)}. In this work we show the advantage of calculating electric and magnetic response properties of solids using the current density as basic variable. An efficient approach to calculate the current density is time-dependent current-density-functional theory (TDCDFT). In TDCDFT the electron current-density enters, replacing the electron density of ordinary TDDFT as the fundamental dynamical variable, with a vector potential instead of a scalar potential as its conjugate variable. We will show results for optical properties of solids using a recently developed functional\footnote{Phys. Rev. Lett. 115, 137402  (2015)}. We will also discuss how the magnetization can be described within this framework.",
+        ]
+    }             
+    - {
+        id: 25,
+        startTime: "12:50",
+        endTime: "13:10",
+        speakername: "Andrey",
+        speakerlastname: "Yachmenev",
+        speakercompany: "CFEL/DESY",
+        speakertitle: "PostDoc",
+        title: "Variational calculations of molecular rotational-vibrational dynamics in the presence of electromagnetic fields",
+        content: [
+          para: "Theoretical predictions of the quantum dynamics of molecules in the presence of external electromagnetic fields and the relationship with the desired molecular magneto-optical properties are incredibly important for the successful interplay between theory and experiment. Accurately describing molecule-field interactions can directly impact the design of new experiments, ranging from the investigation of ultrafast dynamics in small molecules, the development of new metamaterials, to the coherent diffractive imaging of biological samples. To do this, one usually requires sophisticated quantum mechanical approaches that consider all major electronic, nuclear motion, and external field effects to high a degree of accuracy.",
+          para: "I will present an overview of our recent and future activities in the development of theoretical methods and computational tools to investigate the nuclear motion dynamics of polyatomic molecules. Currently, our main emphasis is on the effects of internal (hyperfine) and external (laser) electromagnetic field interactions. We focus on methods that are general, highly accurate and therefore quantitatively predictive, but at the same time applicable to large complex molecular systems of the kind faced in real-world situations.",
+        ]
+    }      
+    - {
+      id: 26,
+      startTime: "13:10",
+      endTime: "14:40",
+      title: "Lunch break",
+      description: "The best time to talk with speakers and attendees",
+      service: true,
+      place: "CFEL",
+    }               
+    - {
+        id: 27,
+        startTime: "14:40",
+        endTime: "15:30",
+        title: "TBA",
+        speakerID: 8,
+        content: [
+          para: "TBA",
+        ],
+    }          
+    - {
+        id: 28,
+        startTime: "15:30",
+        endTime: "15:50",
+        speakername: "Daniel",
+        speakerlastname: "Hirschmeier",
+        speakercompany: "University of Hamburg",
+        speakertitle: "PhD Student",
+        title: "Multiband Dual Fermion Approach",
+        content: [
+          para: "We study the Hubbard model on the honeycomb lattice in the vicinity of the quantum critical point by means of a multiband formulation of the Dual Fermion approach. Beyond the strong local correlations of the dynamical mean field, critical fluctuations on all length scales are included by means of a ladder diagram summation. Analysis of the susceptibility yields an estimate of the critical interaction strength of the quantum phase transition from a paramagnetic semimetal to an antiferromagnetic insulator, in good agreement to other numerical methods. We further estimate the crossover temperature to the renormalized classical regime. Our data imply that, at large interaction strengths, the Hubbard model on the honeycomb lattice behaves like a quantum nonlinear sigma model, while displaying signs of non-Fermi liquid behavior.",
+        ]
+    }      
+    - {
+      id: 29,
+      startTime: "15:50",
+      endTime: "16:20",
+      title: "Coffee break",
+      description: "The best time to talk with speakers and attendees",
+      service: true,
+      place: "CFEL",
+    	sessionIds: [201]
+    }          
+    - {
+      id: 30,
+      startTime: "16:20",
+      endTime: "17:40",
+      title: "Industry Session",
+      service: true,
+      place: "CFEL",
+    	sessionIds: [201]
+    }              
+    - {
+      id: 31,
+      startTime: "17:40",
+      endTime: "18:20",
+      title: "SpringerMaterials Session",
+      service: true,
+      place: "CFEL",
+    	sessionIds: [201]
+    }     
+    - {
+      id: 32,
+      startTime: "18:20",
+      endTime: "22:00",
+      title: "SpringerMaterials Poster Session",
+      service: true,
+      place: "CFEL",
+    	sessionIds: [201]
+    }         
+-
+  date: "2018-06-06"
+  dateReadable: "Wednesday, June 6th"
+  tracks: 
+    - {title: "Center for Free-Electron Laser Science Room I - II", color: "#90be4e"}
+  timeslots:     
+    - {
+        id: 33,
+        startTime: "9:30",
+        endTime: "9:50",
+        speakername: "Alexander",
+        speakerlastname: "Hampel",
+        speakercompany: "ETH Zurich",
+        speakertitle: "PhD Student",
+        title: "First Principles Description of Correlation Driven Lattice Energetics in RNiO3 Compounds by DFT+DMFT",
+        content: [
+          para: "Perovskite rare-earth nickelates, \textit{R}NiO3, display a rich phase diagram with coupled structural, magnetic, and electronic degrees of freedom. All compounds with \textit{R} from Pr to Lu undergo a metal-insulator transition (MIT) that is accompanied by a structural distortion, which breaks the symmetry between formerly equivalent Ni sites and can be understood as a charge disproportionation of the Ni^{3+} cations into Ni^{2+} and Ni^{4+}. Both the transition temperature as well as the strength of the charge disproportionation vary strongly as function of the rare-earth ion. We explore the complex interplay between lattice distortions and electronic correlation effects in these compounds. To do so, we decompose the structure into distortion modes, which allows us to determine the structural ground state of the system by varying the different structural degrees of freedom individually and comparing total energies calculated within charge self-consistent density functional theory plus dynamical mean field theory (DFT+DMFT) approach. Moreover, we employ the constraint random phase approximation (cRPA) method to calculate interaction parameters in the e_g-e_g correlated subspace and reveal a strong reduction of the effective Coulomb interaction U due to screening, which also increases across the series from \textit{R}=Lu to La. Accurate structural trends across the series are then derived and the subtle influence of the interaction parameters  U and J is analyzed. Therefore, our results demonstrate the successful description of the coupled structural and metal-insulator transition in rare-earth nickelate compounds without empirical parameters.",
+        ]
+    }
+    - {
+        id: 34,
+        startTime: "9:50",
+        endTime: "10:10",
+        speakername: "Jens Renè",
+        speakerlastname: "Suckert",
+        speakercompany: "Friedrich-Schiller Universität Jena, Institut für Festkörpertheorie und Optik",
+        speakertitle: "PhD Student",
+        title: "Calculation of different methods for the Gilbert damping in clean ferromagnets",
+        content: [
+          para: "The Gilbert damping describes relaxation of a precessing magnetic moment in an effective magnetic field. Efforts to describe the damping from first principles have been made for almost 50 years [1]. A multitude of approaches to calculate the damping have been proposed since then [1,2,3]. Still, a disparity between different theoretical approaches persists. In particular, the behavior of clean ferromagnets at low temperatures is still debated [4]. In this work, we present calculations of the damping parameter for clean Fe, Ni and Co systems using a unified framework to investigate different approaches to understand the origin of their disparities. This work is supported by the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (ERC-consolidator grant 681405 – DYNASORE). ",
+        ],
+        references: [
+          cite: "[1] V. Kambersky, Czech J. Phys. 26, 1366 (1976).",
+          cite: "[2] A. Brataas, et al., Phys. Rev. Lett. 101, 037207 (2008).",
+          cite: "[3] S. Mankovsky et al., Phys. Rev. B 87, 014430 (2013).",
+          cite: "[4] D.M. Edwards, J. Phys.: Condens. Matter 28, 086004 (2016).",
+        ]
+    }    
+    - {
+        id: 35,
+        startTime: "10:10",
+        endTime: "10:30",
+        speakername: "Matthias",
+        speakerlastname: "Peschke",
+        speakercompany: "Universität Hamburg",
+        speakertitle: "PhD Student",
+        title: "Frustrated quantum magnetism in the Kondo-lattice on the zig-zag ladder",
+        content: [
+          para: "The interplay between Kondo effect, indirect magnetic interaction and geometrical frustration is studied in the Kondo lattice on the onedimensional zig-zag ladder. Using the density-matrix renormalization group (DMRG), the ground state and various short- and long-range spin- and density-correlation functions are calculated for the model at half-filling as a function of the antiferromagnetic Kondo interaction down to J=0.3t where t is the nearest-neighbor hopping. Geometrical frustration is shown to lead to at least two critical points: Starting from the strong-J limit, where almost local Kondo screening dominates, antiferromagnetic correlations between nearestneighbor and next-nearest-neighbor local spins become stronger and stronger, until at J^dim_c approx 0.895t frustration is alleviated by a spontaneous breaking of translational symmetry and a corresponding transition to a dimerized state. Furthermore, within the symmetry-broken dimerized state, our data suggest a magnetic transition to a 90^° quantum spin spiral with quasi-long-range order at J^mag_c approx 0.84. The quantum-critical point is characterized by a diverging spin-structure factor S(q) at wave vector q = pi/2 and the closure of the spin gap (based on system sizes up to L=40). This is opposed to the model on the one-dimensional bipartite chain, which is known to have a finite spin gap for all J>0 at half-filling.", 
+        ],
+    }        
+    - {
+      id: 36,
+      startTime: "10:30",
+      endTime: "11:00",
+      title: "Coffee break",
+      description: "The best time to talk with speakers and attendees",
+      service: true,
+      place: "CFEL",
+    	sessionIds: [201]
+    }        
+    - {
+        id: 37,
+        startTime: "11:00",
+        endTime: "11:40",
+        speakername: "Riku",
+        speakerlastname: "Tuovinen",
+        speakercompany: "Max Planck Institute for the Structure and Dynamics of Matter",
+        speakertitle: "PostDoc",
+        title: "TBA",
+        content: [
+          para: "TBA", 
+        ],
+    }        
+    - {
+        id: 38,
+        startTime: "11:40",
+        endTime: "12:10",
+        speakername: "Cesar",
+        speakerlastname: "",
+        speakercompany: "Max Planck Institute for the Structure and Dynamics of Matter",
+        speakertitle: "PhD Student",
+        title: "TBA",
+        content: [
+          para: "TBA", 
+        ],
+    }    
+    - {
+        id: 39,
+        startTime: "12:20",
+        endTime: "13:00",
+        speakername: "Markus",
+        speakerlastname: "Penz",
+        speakercompany: "Max Planck Institute for the Structure and Dynamics of Matter",
+        speakertitle: "PostDoc",
+        title: "TBA",
+        content: [
+          para: "TBA", 
+        ],
+    }    
+    - {
+      id: 40,
+      startTime: "13:00",
+      endTime: "14:30",
+      title: "Lunch break",
+      description: "The best time to talk with speakers and attendees",
+      service: true,
+      place: "CFEL",
+    }    
+    - {
+        id: 41,
+        startTime: "14:30",
+        endTime: "15:20",
+        title: "Extra Notes",
+        speakerID: 6,
+        content: [
+          para: "TBA",
+        ],
+    }    
+    - {
+        id: 42,
+        startTime: "15:20",
+        endTime: "15:40",
+        speakername: "Gabriel Elias",
+        speakerlastname: "Topp",
+        speakercompany: "Max Planck Institute for the Structure and Dynamics of Matter",
+        speakertitle: "PhD Student",
+        title: "All-optical nonthermal pathway to magnetic Weyl semimetals in pyrochlore iridates",
+        content: [
+          para: "The 227 pyrochlore iridates were conjectured to exhibit an antiferromagnetically ordered Weyl semimetallic (AF-WSM) phase provided that one could tune the ordered magnetic moment. Although the equilibrium phase diagram is still under lively debate both theoretically and experimentally, no convincing evidence has been presented for the AF-WSM, and it appears that all the known compounds are antiferromagnetic insulators (AFI). Here we propose an ultrafast nonthermal pathway to engineer a nonequilibrium AF-WSM phase with short laser pulses. Motivated by Floquet-Weyl semimetallic states in non-magnetic 3D Dirac materials, we investigate the dynamics after an interaction quench in a mean-field dynamics simulation starting from the AFI phase. We find nonthermal magnetic phases with Weyl fermions that emerge on femtosecond time scales. Possible experimental setups to realize our proposed scheme are discussed.", 
+        ],
+    }        
+    - {
+      id: 43,
+      startTime: "15:40",
+      endTime: "16:10",
+      title: "Coffee break",
+      description: "The best time to talk with speakers and attendees",
+      service: true,
+      place: "CFEL",
+    	sessionIds: [201]
+    }    
+    - {
+        id: 44,
+        startTime: "16:10",
+        endTime: "16:30",
+        speakername: "Damian",
+        speakerlastname: "Hofmann",
+        speakercompany: "Max Planck Institute for the Structure and Dynamics of Matter",
+        speakertitle: "MSc Student",
+        title: "Laser Control of Topological Polaritons",
+        content: [
+          para: "Polaritons are quasi-particles consisting of a superposition of excitons and photons inside a semiconductor microcavity. We study a system in which multiple semiconductor layers are coupled through a single photonic cavity mode. The phase-winding exciton-photon coupling gives rise to intrinsic non-trivial topological properties of the polariton bands. In particular, the system possesses chiral edge modes, which can be excited by optical driving near the sample boundary. We simulate the dynamics of the driven system in the semiclassical approximation using a dissipative Gross-Pitaevskii equation and discuss the control and stability of the edge modes. These results are compared to exact numerical calculations for small systems.", 
+        ],
+    }    
+    - {
+        id: 45,
+        startTime: "16:30",
+        endTime: "16:50",
+        speakername: "Yusuf",
+        speakerlastname: "Mohammed",
+        speakercompany: "Universität Hamburg",
+        speakertitle: "PhD Student",
+        title: "Non-equilibrium steady state of the ionic Hubbard model in strong electric fields",
+        content: [
+          para: "We investigate the transport properties and non-equilibrium steady state phases of the dissipative ionic Hubbard model driven by an electric  field. In the ionic Hubbard model, metallic behavior is enhanced by a competition of band insulating and Mott insulating behavior. The system is analyzed by means of the inhomogeneous dynamical mean-field theory (DMFT), using the iterated perturbation theory as impurity solver. The steady states of this model are accessed directly through the Keldysh contour formalism.", 
+          para: "We found that with increasing electric field the sublattice polarization reduces,  leading to a decrease in the screening of the gap and an increase in the electronic scattering rate.  This results in a smaller current in the nonlinear regime of correlated ionic insulators compared the non interacting case. In addition, we observed a quasi-thermal distributions even in the negative differential resistance regime, due to electron-electron scattering.", 
+        ],
+    }        
+    - {
+        id: 46,
+        startTime: "16:50",
+        endTime: "17:10",
+        speakername: "Andre",
+        speakerlastname: "Laestadius",
+        speakercompany: "Hylleraas Centre for Quantum Molecular Sciences, Department of Chemistry, University of Oslo",
+        speakertitle: "PostDoc",
+        title: "Analysis of The Coupled-Cluster Method Tailored by Tensor-Network States in Quantum Chemistry",
+        content: [
+          para: "We analyze the tailored coupled-cluster (TCC) method, which is a multi-reference formalism that combines the single-reference coupled-cluster (CC) approach with a full configuration interaction (FCI) solution covering the static correlation. This includes the high efficiency CC method tailored by tensor-network states (TNS-TCC). For statically correlated systems, we introduce the conceptually new CAS-ext-gap assumption for multi-reference problems that replaces the assumption of a sufficiently large HOMO-LUMO gap. This new assumption is in particular useful for strongly correlated electronic systems. We characterize the TCC function and show local strong monotonicity and Lipschitz continuity such that Zarantonello's Theorem yields locally unique solutions fulfilling a quasi-optimal error bound for the TCC method. We perform an energy error analysis revealing the mathematical complexity of the TCC-method. Due to the basis-splitting nature of the TCC formalism, the error decomposes into several parts. Using the Aubin-Nitsche-duality method we derive a quadratic (Newton type) error bound valid for the linear-tensor-network TCC scheme DMRG-TCC and other TNS-TCC methods.", 
+        ],
+    }    
+    - {
+      id: 47,
+      startTime: "17:10",
+      endTime: "18:00",
+      title: "Open discussion",
+      service: true,
+      place: "CFEL",
+    	sessionIds: [201]
+    }       
+    - {
+      id: 48,
+      startTime: "18:00",
+      endTime: "22:00",
+      title: "Social BBQ",
+      service: true,
+      place: "CFEL",
+    	sessionIds: [201]
+    }           
+-
+  date: "2018-06-07"
+  dateReadable: "Thursday, June 7th"
+  tracks: 
+    - {title: "Center for Free-Electron Laser Science Room I - II", color: "#90be4e"}
+  timeslots:     
+    - {
+        id: 49,
+        startTime: "10:10",
+        endTime: "11:00",
+        title: "Fermion-boson systems in and out of equilibrium",
+        speakerID: 9,
+        content: [
+          para: "TBA",
+        ],
+    } 
+    - {
+      id: 50,
+      startTime: "11:00",
+      endTime: "11:30",
+      title: "Coffee break",
+      description: "The best time to talk with speakers and attendees",
+      service: true,
+      place: "CFEL",
+    	sessionIds: [201]
+    }    
+    - {
+        id: 51,
+        startTime: "11:30",
+        endTime: "11:50",
+        speakername: "Dietrich",
+        speakerlastname: "Krebs",
+        speakercompany: "CFEL / CUI",
+        speakertitle: "PhD Student",
+        title: "Theoretical investigation of X-ray nonlinear Compton scattering",
+        content: [
+          para: "Motivated by a recent experiment [Nat. Phys. 11, 964 (2015)], we theoretically investigate the process of x-ray nonlinear Compton scattering (XNLC). Our approach is based on the time-dependent Schroedinger equation for an atomic system subject to an intense x-ray pulse and explicitly accounts for the spontaneous scattering into a quantized photonic mode. To the best of our knowledge, this is the first time a time-dependent QED description has been implemented for a realistic three-dimensional system.", 
+          para: "We validate our implementation by calculating linear Compton scattering signals at multiple photon energies and verify the well-known dominance of the first-order A^2-mechanism. Subsequently, we explore the processes underlying XNLC within the same framework. For soft x-rays (500 eV), we find that XNLC is dominated by certain third-order processes rather than the naively expected mechanisms pertaining to lowest order of perturbation theory. At higher photon energy (4.0 keV) these contributions become similar in importance. There, our results are moreover in good agreement with simple, free-electron predictions - contrary to the experimental conclusions.", 
+        ],
+    }     
+    - {
+        id: 52,
+        startTime: "11:50",
+        endTime: "12:10",
+        speakername: "Vasil",
+        speakerlastname: "Rokaj",
+        speakercompany: "Max Planck Institute for Structure and Dynamics of Matter",
+        speakertitle: "PhD Student",
+        title: "Light-matter interaction in the long-wavelength limit: necessity of the dipole self-energy.",
+        content: [
+          para: "Most theoretical studies for correlated light-matter systems are performed within the long-wavelength limit, i.e., the electromagnetic field is assumed to be spatially uniform. In this limit the so-called length-gauge transformation for a fully quantized light-matter system gives rise to the dipole self-energy of the electrons. In practice this term is often discarded as it is assumed to be subsumed in the kinetic energy term. In this presentation we show the necessity of the dipole self-energy term. First and foremost, without it the light-matter system in the long-wavelength limit does not have a ground-state. Further implications of the dipole self-energy will be presented, such as the change of the translation operator and how this influences the Bloch theorem.", 
+        ],
+    }    
+    - {
+        id: 53,
+        startTime: "12:20",
+        endTime: "12:40",
+        speakername: "Teresa",
+        speakerlastname: "Reinhard",
+        speakercompany: "Max Planck Institute for Structure and Dynamics of Matter",
+        speakertitle: "PhD Student",
+        title: "Density matrix embedding theory for coupled fermion-boson systems",
+        content: [
+          para: "We analyze strongly correlated fermion-boson systems by extending Density Matrix Embedding Theory (DMET) from the purely electronic case [1,2] to coupled fermion-boson systems.",
+          para: "DMET is a novel embedding theory which benefits from the exponentially decaying correlation in most quantum systems. By using the Schmidt decomposition, we divide the treated system into an impurity and a bath part. We project the bath part into the part of the Fock space that contains the entanglement with the impurity region and then solve this much smaller entangled system with exact diagonalization and DMRG as impurity solver.",
+          para: "With this technique, we treat lattice systems of Hubbard-Holstein type, where fermions and bosons are coupled by a bilinear Froehlich coupling. As we choose coherent states for the bosonic basis set, it is convenient to apply our approach to electron-phonon as well as to electron-photon systems.",
+          para: "By using a DMRG solver for the DMET algorithm, an accurate treatment of 2 dimensional systems becomes feasible.", 
+        ],
+        references: [
+          cite: "[1] G. Knizia, G. K.-L Chan, Phys. Rev. Lett 109, 186404, (2012).",
+          cite: "[2] S. Wouters, C. A. Jiménez-Hoyos, G. K.-L. Chan, arXiv:1605.05547 (2016).",
+        ]
+    }   
+    - {
+        id: 54,
+        startTime: "12:40",
+        endTime: "13:00",
+        speakername: "Michael",
+        speakerlastname: "Reitz",
+        speakercompany: "Max Planck Institute for Structure and Dynamics of Matter",
+        speakertitle: "PhD Student",
+        title: "Energy transfer and correlations in cavity-embedded donor-acceptor configurations",
+        content: [
+          para: "The rate of energy transfer in donor-acceptor systems can be manipulated via the common interaction with the confined electromagnetic modes of a micro-cavity. We analyze the competition between the near-field short range dipole-dipole energy exchange processes and the cavity mediated long-range interactions in a simplified model consisting of effective two-level quantum emitters that could be relevant for molecules in experiments under cryogenic conditions. We find that free-space collective incoherent interactions, typically associated with sub- and superradiance, can modify the traditional resonant energy transfer scaling with distance. The same holds true for cavity-mediated collective incoherent interactions in a weak-coupling but strong-cooperativity regime. In the strong coupling regime, we elucidate the effect of pumping into cavity polaritons and analytically identify an optimal energy flow regime characterized by equal donor/acceptor Hopfield coefficients in the middle polariton. Finally we quantify the build-up of quantum correlations in the donor-acceptor system via the two-qubit concurrence as a measure of entanglement.",
+        ]
+    }     
+    - {
+      id: 55,
+      startTime: "13:00",
+      endTime: "14:00",
+      title: "Lunch break",
+      description: "The best time to talk with speakers and attendees",
+      service: true,
+      place: "CFEL",
+    }   
+    - {
+        id: 56,
+        startTime: "14:30",
+        endTime: "14:50",
+        speakername: "Pedro Miguel",
+        speakerlastname: "Monteiro Campos de Melo",
+        speakercompany: "NanoMat/CESAM, ULiege",
+        speakertitle: "PostDoc",
+        title: "Ab-initio dynamics and photoluminescence on TMDs",
+        content: [
+          para: "The theoretical study of photoluminescence (PL) has been hindered in the past due to lack of predictive ab initio numerical techniques [1,2,4]. We present a complete framework for the computation of PL where electrons, nuclei, and photons are quantised. The intrinsic non-equilibrium nature of the process is fully taken into account [3]. We derive a set of equations for the Green's functions of electrons, phonons, and photons where the different kinds of interactions are treated on the same footing. These equations are then simplified by using the generalised Baym-Kadanoff ansatz and the completed collision approximation [3]. This reduces the problem to a set of decoupled equations for the density matrix that describe all kinds of static and dynamical correlations. We show how the micro-macro connection relates the observable spectrum with the time-dependent microscopic dynamics, via the BSE. Finally, we present the results of our numerical studies on 2D materials, such as WS2, where we relate the evolution of the carrier populations in the Brillouin zone with the changes in the PL spectrum of the material, for a range of experimental setups.",
+        ],
+        references: [
+          cite: "[1] M. F. Pereira and K. Henneberger, PRB 58, 2064 (1998)..",
+          cite: "[2] K. Hannewald, et al, PRB 67, 233202 (2003).",
+          cite: "[3] P. M. M. C. de Melo and A. Marini, PRB 93, 155102 (2016).",
+          cite: "[4] S. W. Koch, et al, Nat Mat 5, 523 (2006).",
+        ]
+    }     
+    - {
+        id: 57,
+        startTime: "14:50",
+        endTime: "15:10",
+        speakername: "Norah",
+        speakerlastname: "Hoffmann",
+        speakercompany: "Max Planck for Structure and Dynamics of matter",
+        speakertitle: "PhD Student",
+        title: "Light-Matter Interactions in Optical Cavities Beyond the Classical Maxwell Description",
+        content: [
+          para: "In the present work we face the question: Whether and to what extent the analysis and simulation of photoinduced processes changes by going beyond the classical Maxwell description. Here we generalize the idea of the ensemble trajectories, traditionally introduced for electron-nuclear problems, to electron-photon correlated systems, where we focus on well-known semiclassical methods like mean-field and path-integral approach. We apply our novel approaches to spontaneous and stimulated emission for atoms and molecules in optical cavities.",
+          para: "However, considering the free photonic field being described by harmonic Hamiltonians, the coupling to the matter within dipole approximation and starting the Wigner dynamics with a Gaussian wavepacket, we find that the results are accurate but not exact, although observation suggests that classical Wigner dynamics for harmonic potentials up to a linear coupling should describe the motion exact. This implies that the true potential driving the photonic motion is in fact not harmonic. To further investigate this, we introduce the exact-factorization approach and therewith time-dependent potential energy-surfaces for electron-photon interaction.",
+        ],
+    }         
+    - {
+        id: 58,
+        startTime: "15:20",
+        endTime: "15:40",
+        speakername: "Davis Dave",
+        speakerlastname: "Welakuh Mbangheku",
+        speakercompany: "Max Planck for Structure and Dynamics of matter",
+        speakertitle: "PhD Student",
+        title: "Light-Matter Response Functions in Quantum-Electrodynamical Density-Functional Theory: Modifications of Spectra and of the Maxwell Equations",
+        content: [
+          para: "Novel experiments at the interface between quantum chemistry and quantum optics, e.g., investigating complex molecules strongly-coupled to the mode of an optical high-Q cavity, show that the emergence of hybrid light-matter states strongly influence the chemical and spectroscopic properties of molecular systems. While the theoretical description of such fermion-boson systems is usually done with effective model Hamiltonians, I will show how a recently developed extension of density-functional theory to coupled matter-photon systems termed quantum-electrodynamical density-functional theory (QEDFT) [1] allows us to treat hybrid light-matter systems from first principles [2]. I introduce a linear-response formulation of QEDFT that does not only allow to determine the emerging polaritonic spectra but also novel types of response functions like photon-photon responses due to the coupling to quantum matter from first principles. Within a simple model system I will exemplify these concepts and finally show first ab-initio results for a real molecule strongly coupled to the modes of a high-Q optical cavity.",
+        ],
+        references: [
+          cite: "[1] M. Ruggenthaler et al., Phys. Rev. A 90, 012508 (2014).",
+          cite: "[2] J. Flick et al., Proc. Natl. Acad. Sci. USA 112, 15285-15290 (2015).",
+        ]
+    }   
+    - {
+        id: 59,
+        startTime: "15:40",
+        endTime: "16:00",
+        speakername: "Shane",
+        speakerlastname: "O'Mahony",
+        speakercompany: "Tyndall National Institute",
+        speakertitle: "PhD Student",
+        title: "Relaxation of low-symmetry photo-induced interatomic forces by electron-phonon scattering",
+        content: [
+          para: "The generation and control of atomic forces in optically excited systems is important in understanding photocatalysis, renewable energy and laser annealing.  E_g-symmetry coherent phonons can be excited in group-V semimetals by ultrafast (<100 fs) optical pulses when the radiation is polarised perpendicular to the 3-fold symmetry axis of the crystal. The electronic driving force of this phonon is consistent with an initially unbalanced occupation of electronic states in symmetry-equivalent regions of the Brillouin zone, which decays to fully-symmetric occupation of the zone on fs timescales.  The temperature-dependence of the decay time of the force in Bi and Sb, measured by Li et. al. [1], suggested relaxation of the excited electronic distribution by electron-phonon scattering.",
+          para: "We calculate the decay of the low-symmetry E_g driving force in Bi, Sb and As from first principles. We calculate the electronic energies, phonon spectrum and electron-phonon matrix elements using density functional perturbation theory. We calculate the initial excited electronic distribution, evolve the distribution using a rate-equation approach and calculate the atomic forces at each time-step. We obtain good agreement with experiment for Bi and Sb, showing that electron-phonon scattering is the dominant relaxation mechanism for the E_g force. We also predict the decay rate for E_g forces in photo-excited As.",
+        ]
+    }     
+    - {
+      id: 60,
+      startTime: "16:00",
+      endTime: "18:00",
+      title: "Free time",
+      service: true,
+      place: "CFEL",
+    	sessionIds: [201]
+    }     
+    - {
+      id: 61,
+      startTime: "18:00",
+      endTime: "22:00",
+      title: "Beachvolleyball Tournament",
+      service: true,
+      place: "CFEL",
+    	sessionIds: [201]
+    }    
+-
+  date: "2018-06-08"
+  dateReadable: "Friday, June 8th"
+  tracks: 
+    - {title: "Center for Free-Electron Laser Science Room I - II", color: "#90be4e"}
+  timeslots:     
+    - {
+        id: 62,
+        startTime: "9:00",
+        endTime: "9:50",
+        title: "Multiscale models: QM/MM and beyond",
+        speakerID: 7,
+        content: [
+          para: "Many chemical processes of biological or industrial relevance occur in the condensed phase, for instance a solvent or a protein matrix. Therefore, computational methods that can treat condensed phases efficiently, yet accurate, are called for. Utilizing that most chemical properties are local and high accuracy therefore only is required for a smaller part, many methods employ a separation of the total system into two parts: The chemically relevant part is treated by quantum mechanical (QM) methods whereas the remaining system is treated with the more approximate, but appreciatively faster, molecular mechanics (MM) methods [1]. Despite rather successful, these QM/MM hybrids often involve severe approximations for the interaction between the QM system and the MM part, where the latter is often represented by point-charges.   In this talk, I will introduce the QM/MM scheme and discuss methods that go beyond the simple point-charge description of the environment[2,3], using examples from my own research [4,5]. Selected applications for condensed phases and proteins [4–6] will be discussed.",
+        ],
+        references: [
+          cite: "[1] A. Warshel and M. Levitt, J. Mol. Biol. 103, 227 (1976).",
+          cite: "[2] J. M. Olsen, K. Aidas and J. Kongsted, J. Chem. Theory Comput. 6, 3721 (2010).",
+          cite: "[3] J. Neugabauer, Phys. Rep. 489, 2010, 1.",
+          cite: "[4] E. D. Hedegård et al. J. Chem. Phys. 142, 114113 (2015).",
+          cite: "[5] E. D. Hedegård and M. Reiher, J. Chem. Theory Comput. 12, 2016, 4242.",
+          cite: "[6] E. D. Hedegård and U. Ryde, Chem. Sci. 9, 2018, 3866.",
+        ]
+    }
+    - {
+        id: 63,
+        startTime: "9:50",
+        endTime: "10:10",
+        speakername: "Yanggang",
+        speakerlastname: "Wang",
+        speakercompany: "Fritz Haber Institute",
+        speakertitle: "PostDoc",
+        title: "Understanding Realistic Catalysis from a Computational View",
+        content: [
+          para: "Theory and computation have played an important role in understanding and predicting catalytic performance by providing detailed mechanistic insights, interpretations of experimental phenomena, and even prediction of improved catalysts. Nonetheless, it is still a grand challenge to perform atomistic simulations of complex models of catalysts at finite temperature and realistic conditions that take into account metal particle distribution, reactant/product networks, and support materials. In this talk, we will introduce our recent ab initio molecular dynamics and kinetic simulations on oxide-supported gold catalysis and show how the catalysis features such as catalyst structure, adsorption/diffusion process, charge transfer, and the reaction mechanisms are dynamically behaved and how they can be controlled by adjusting the operative parameters. This strongly implies the importance in understating catalysis dynamic behaviors under realistic conditions."
+        ]
+    }    
+    - {
+        id: 64,
+        startTime: "10:10",
+        endTime: "10:30",
+        speakername: "Callum",
+        speakerlastname: "Bungey",
+        speakercompany: "University of Bristol",
+        speakertitle: "PhD Student",
+        title: "Non-Born-Oppenheimer Electronic-Vibrational Structure",
+        content: [
+          para: "The Born-Oppenheimer (BO) potential energy surface has been a central quantity in the understanding of chemical dynamics for over 80 years, allowing the adiabatic separation of electronic and nuclear degrees of freedom.  The breakdown of the BO approximation occurs in many chemically important circumstances, with many current difficulties arising from the coupling of many nuclear degrees of freedom within a potential energy surface.",
+          para: "This work seeks to instead deal with electronic and vibrational degrees of freedom simultaneously, initially under a harmonic approximation for vibrational degrees of freedom.  We propose an electronic-nuclear Hamiltonian formed from a Taylor expansion of the full molecular Hamiltonian to second order in nuclear coordinates.",
+          para: "We study the quantum chemistry of this system and solve it within a mean-field approximation.  Here we present initial results for the combined electronic-vibrational structure of small molecules for different expansion geometries."
+        ]
+    }        
+    - {
+      id: 65,
+      startTime: "10:30",
+      endTime: "11:20",
+      title: "Coffee break+",
+      description: "The best time to talk with speakers and attendees",
+      service: true,
+      place: "CFEL",
+    	sessionIds: [201]
+    }    
+    - {
+        id: 66,
+        startTime: "11:20",
+        endTime: "11:40",
+        speakername: "Sophia",
+        speakerlastname: "Bazzi",
+        speakercompany: "DESY",
+        speakertitle: "PhD Student",
+        title: "Challenges in XUV Photochemistry Simulations: A Case Study on Ultrafast Fragmentation Dynamics of the Benzene Radical Cation",
+        content: [
+          para: "Understanding the ultrafast photochemical behavior of XUV irradiated polycyclic aromatic hydrocarbons (PAHs) can help in understanding the chemistry in the interstellar medium due to their abundance and their role as precursors of life. In simulating the XUV induced photochemistry of medium-sized to large systems, one needs to deal with a large number of excited states as well as several dissociation channels which is a challenging task.",
+          para: "The aim of the present study is to assess the possibility of utilizing Koopmans' theorem to study the XUV induced photodissociation of medium-sized to large systems using ab initio classical trajectory calculations within the fewest switches surface hopping (FSSH) scheme. To this end, we study the non-adiabatic dynamics and photodissociation of the benzene cation as a prototypical system.",
+          para: "Although the Koopmans' theorem based approach describes the non-adiabatic relaxation process relatively well, the challenge to develop accurate and affordable ab initio models that describe the fragmentation yields upon XUV irradiation remains an open question."
+        ]
+    } 
+    - {
+        id: 67,
+        startTime: "11:40",
+        endTime: "12:00",
+        speakername: "Lin",
+        speakerlastname: "Sun",
+        speakercompany: "Institut für Festkörpertheorie und Optik, Friedrich-Schiller-Universität Jena",
+        speakertitle: "PhD Student",
+        title: "Structural prediction of low-energy interface reconstructions of Sigma5 grain boundaries",
+        content: [
+          para: "We performed ab initio global structural predictions with the minima hopping method of interface reconstructions in three different silicon grain boundaries, Sigma5(012), Sigma5(031) and Sigma5(521). We calculated interface energies and electronic density of states. Compared with locally optimized structures, our new structures have lower total energies and significantly smaller interface energies. We observed some recurrent geometrical features of the lowest energy interfaces: Si atoms prefer to form spiral structures rather than simple rings. Concerning the electronic properties, defect energy levels in the band gap of locally-optimized interfaces can disappear after interface reconstruction. Our investigation suggests that global structural prediction is extremely important to predict the effect on transport and optical properties of grain boundaries in semiconductors.",
+        ]
+    }       
+    - {
+        id: 68,
+        startTime: "12:00",
+        endTime: "12:20",
+        speakername: "Arnaud",
+        speakerlastname: "Lorin",
+        speakercompany: "Laboratoire des solides irradiés",
+        speakertitle: "PhD Student",
+        title: "Electron Energy Loss Spectra of silver chloride: an ab initio approach",
+        content: [
+          para: "Silver chloride has been widely used in photographic process, thanks to its sensitivity to visible light and its capacity to form latent images. It was at the heart of the works of Edmond Becquerel for the photovoltaic effect and the first color photographic process [1]. More recently, this material gained interest also as a photocatalyst.",
+          para: "We report here the calculated absorption and EEL spectra for a perfect crystal of Silver chloride. The calculations have been carried out within TDDFT using ALDA [2,3], as implemented in the DP code [4]. We compare our results with recent experimental spectra obtained by collaborators at Centre de Recherche sur la Conservation with which we collaborate on elucidating the mechanisms that might explain the color photochromatic images of Edmond Becquerel.",
+        ],
+        references: [
+          cite: "[1] Edmond Becquerel in \"La lumière, ses causes et ses effets\", (F. Didot frères, fils et Cie (Paris)).",
+          cite: "[2] E. Runge, E.K.U. Gross, Phys. Rev. Lett. 52, 997 (1984).",
+          cite: "[2] E.K.U. Gross and W. Kohn, Phys. Rev. Lett. 55, 2850 (1985).",
+          cite: "[2] The DP code, F.Sottile, L.Reining, V. Olevano. https://etsf.polytechnique.fr/software/Ab_Initio/.",
+        ]
+    }           
+    - {
+    	startTime: "12:20",
+      endTime: "13:00",
+      title: "Farewell",
+      service: true,
+      place: "CFEL",
+    	sessionIds: [201]
     }    
     - {
     	startTime: "13:00",
-    	endTime: "14:00",
-    	sessionIds: [503]
-    }
+      endTime: "14:00",
+      title: "Free - Departure",
+      service: true,
+      place: "CFEL",
+    	sessionIds: [201]
+    } 
     - {
     	startTime: "14:00",
-    	endTime: "16:00",
-    	sessionIds: [205]
-    }
-    - {
-    	startTime: "16:00",
-    	endTime: "16:30",
-    	sessionIds: [307]
-    }
-    - {
-    	startTime: "16:30",
-    	endTime: "18:00",
-    	sessionIds: [205]
-    }    
-    - {
-    	startTime: "18:00",
-    	endTime: "open",
-    	sessionIds: [206]
-    }
-- 
-  date: "2014-10-25"
-  dateReadable: "October 25"
-  tracks: 
-    - {title: "Android", color: "#90be4e"}
-    - {title: "Web & Cloud", color: "#03a9f4"}
-  timeslots: 
-    - {
-    	startTime: "10:00",
-    	endTime: "10:45",
-    	sessionIds: [404, 002]
-    }
-    - {
-    	startTime: "11:00",
-    	endTime: "11:45",
-    	sessionIds: [002, 003]
-    }
-    - {
-        startTime: "13:00",
-        endTime: "13:45",
-        sessionIds: [003]
-    }
-    - {
-    	startTime: "14:00",
-    	endTime: "15:00",
-    	sessionIds: [503]
-    }
+      endTime: "15:30",
+      title: "Photon Science Colloquium",
+      service: true,
+      place: "CFEL",
+    	sessionIds: [201]
+    }     

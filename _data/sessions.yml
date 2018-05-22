@@ -1,7 +1,7 @@
 -
   id: 101
   title: "Welcome"
-  place: "Some place to meet"
+  place: "Hotel Budapester Hof"
   service: true
   description: "First get together and meeting new people"
 -
@@ -13,10 +13,10 @@
 -
   id: 202
   title: "Introduction"
-  place: "CFEL"
+  place: "Center for Free-Electron Laser Science Room I & II"
   subtype: presentation
   speakers: [3]
-  description: "An introduction into the field"
+  description: "ABCD"
 -
   id: 203
   title: "Old and new approaches towards material design"

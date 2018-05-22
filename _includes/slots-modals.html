@@ -1,0 +1,104 @@
+<!-- Begin timeslots Modals -->
+<div class="modals" class="modals">
+   {% for day in site.data.schedule %}
+      {% for timeslot in day.timeslots %}
+         <div class="modal fade text-left people-modal" id="slotDetail-{{ timeslot.id }}" tabindex="-1" role="dialog" aria-labelledby="slotDetailLabel-{{ timeslot.id }}" aria-hidden="true">
+            <div class="modal-dialog">
+               <div class="modal-content">
+                  <div class="modal-body">
+                     <div class="close">
+                        <svg class="icon icon-cross" viewBox="0 0 32 32">
+                           <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-cross"></use>
+                        </svg>
+                        <div class="close-mask" data-dismiss="modal"></div>
+                     </div>
+                     <h4>{{ timeslot.title }}</h4>
+                     {% for paragraph in timeslot.content %}
+                     <p class="theme-description">{{paragraph.para}}</p>
+                     {% endfor %}
+                     {% if timeslot.references %}
+                     <p class="theme-description">References:</p>
+                     {% endif %}
+                     {% for reference in timeslot.references %}
+                     <p class="theme-description" style="margin-bottom: -5px" >{{reference.cite}}</p>
+                     {% endfor %}
+                     <!-- {% if timeslot.presentation %}
+                     <a class="theme-presentation" href="{{ timeslot.presentation }}" title="Presentation" target="_blank">View presentation</a>
+                     {% endif %} -->
+                     <hr>
+                     <div class="people-details">
+                        {% if timeslot.speakerID != null %}
+                           <h5> Invited Speaker:</h5>
+                           {% for speaker in site.data.speakers %}
+                              {% if timeslot.speakerID == speaker.id %}
+                              <div class="row">
+                                 <div class="col-md-2 col-sm-2">
+                                    <div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})"></div>
+                                 </div>
+                                 <div class="col-md-10 col-sm-10 details">
+                                    <p class="name">{{ speaker.name }} {{ speaker.surname }}
+                                       <span class="position">{{ speaker.title }}, {{ speaker.company }}</span>
+                                    </p>
+                                    {% if speaker.ribbon != null %}
+                                    <div class="modal-ribbon-wrapper">
+                                             {% for ribbon in speaker.ribbon %}
+                                                <a class="modal-ribbon" href="{{ ribbon["url"] }}" target="_blank">{{ ribbon["title"] }}</a>   
+                                             {% endfor %}
+                                          </div>
+                                          {% endif %}
+                                    <p class="about">{{ speaker.bio }}</p>
+                                    <ul class="social">
+                                       {% for social in speaker.social %}
+                                          <li>
+                                             <a href="{{ social["link"] }}" target="_blank">
+                                                <svg class="icon icon-{{ social["name"] }}" viewBox="0 0 30 32">
+                                                   <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social["name"] }}"></use>
+                                                </svg>
+                                             </a>
+                                          </li>
+                                       {% endfor %}
+                                    </ul>
+                                 </div>
+                              </div>
+                              {% endif %}
+                           {% endfor %}
+                        {% else %}
+                        <h5> Speaker:</h5>
+                           <div class="row">
+                              <div class="col-md-2 col-sm-2">                                 
+                              </div>
+                              <div class="col-md-10 col-sm-10 details">
+                                 <p class="name">{{ timeslot.speakername }} {{ timeslot.speakerlastname }}
+                                    <span class="position"> {{ timeslot.speakertitle }}, {{ timeslot.speakercompany }}</span>
+                                 </p>
+                                 {% if speaker.ribbon != null %}
+                                 <div class="modal-ribbon-wrapper">
+                                          {% for ribbon in speaker.ribbon %}
+                                             <a class="modal-ribbon" href="{{ ribbon["url"] }}" target="_blank">{{ ribbon["title"] }}</a>   
+                                          {% endfor %}
+                                       </div>
+                                       {% endif %}
+                                 <p class="about">{{ speaker.bio }}</p>
+                                 <ul class="social">
+                                    {% for social in speaker.social %}
+                                       <li>
+                                          <a href="{{ social["link"] }}" target="_blank">
+                                             <svg class="icon icon-{{ social["name"] }}" viewBox="0 0 30 32">
+                                                <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social["name"] }}"></use>
+                                             </svg>
+                                          </a>
+                                       </li>
+                                    {% endfor %}
+                                 </ul>
+                              </div>
+                           </div>
+                        {% endif %}
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      {% endfor %}
+   {% endfor %}
+</div>
+<!-- End Speakers Modals -->
