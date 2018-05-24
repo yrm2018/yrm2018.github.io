@@ -494,13 +494,13 @@
         id: 38,
         startTime: "11:40",
         endTime: "12:10",
-        speakername: "Cesar",
-        speakerlastname: "",
-        speakercompany: "Max Planck Institute for the Structure and Dynamics of Matter",
-        speakertitle: "PhD Student",
-        title: "TBA",
+        speakername: "César Alberto",
+        speakerlastname: "Rodríguez Rosario",
+        speakercompany: "Universidad del País Vasco and Max Planck Institute for the Structure and Dynamics of Matter",
+        speakertitle: "PostDoc",
+        title: "Controlling heat currents by quantum observation",
         content: [
-          para: "TBA", 
+          para: "Quantum coherences seem to be a property that vanishes at thermodynamic equilibrium. Away from equilibrium, quantum coherences challenge the classical notions of a thermodynamic bath in a Carnot engines, affect the efficiency of quantum transport, lead to violations of Fourier's law, and can be used to dynamically control the temperature of a state. Here we show that the relative entropy of a state with quantum coherence with respect to its decohered state captures its deviation from thermodynamic equilibrium. As a result, changes in quantum coherence can lead to a heat flow with no associated temperature, and affect the entropy production rate. We demonstrate that in thermo-electric nanodevices. the current and heat flows are also controlled by observations. Depending on how and where the observation takes place, the direction of heat and particle currents can be independently controlled. In fact, we show that the current and heat flow in a quantum material can go against the natural temperature and voltage gradients. Dynamical quantum observation offers new possibilities for the control of quantum transport far beyond classical thermal reservoirs.", 
         ],
     }    
     - {
