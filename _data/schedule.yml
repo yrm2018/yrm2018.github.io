@@ -480,7 +480,7 @@
     - {
         id: 37,
         startTime: "11:00",
-        endTime: "11:40",
+        endTime: "11:30",
         speakername: "Riku",
         speakerlastname: "Tuovinen",
         speakercompany: "Max Planck Institute for the Structure and Dynamics of Matter",
@@ -492,7 +492,7 @@
     }        
     - {
         id: 38,
-        startTime: "11:40",
+        startTime: "11:30",
         endTime: "12:10",
         speakername: "César Alberto",
         speakerlastname: "Rodríguez Rosario",
