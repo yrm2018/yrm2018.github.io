@@ -34,7 +34,7 @@
         title: "Introduction",
         speakerID: 3,
         content: [
-          para: "TBA"
+          para: "Many techniques have been developed to deal with the quantum many-body problem. I will try to give an overview of most methods out there, though focussing mostly on electrons alone."
         ],
     }
     - {
@@ -54,8 +54,16 @@
         title: "High-throughput Screening of Novel Semiconductors ",
         speakerID: 4,
         content: [
-          para: "TBA",
+          para: "The design and synthesis of novel materials is one of the big challenges in theoretical material science, which requires an accurate description of equilibrium properties of atoms, molecules and solids from first principles.",
+          para: "Due to its numerical efficiency, density-functional theory (DFT) [1] remains the most widespread approach for electronic structure predictions. Hence, there is an ongoing effort to overcome known shortcomings such as the delocalization error and spurious self interactions. The huge amount of DFT calculations performed worldwide has triggered the creation of online electronic structure databases [2]. These databases not only serve as repositories for electronic structure calculations but also offer the use of novel approaches developed in computer science, e.g. machine learning, to analyze the data in order to guide the design of novel materials [3,4].",
+          para: "In this session, we invite contributions focusing on the development of approximations for ground-state electronic structure methods and the application of big data analysis tools for material research.",
         ],
+        references: [
+          cite: "[1] P. Hohenberg, and W. Kohn, Phys. Rev. 136, B864 (1964).",
+          cite: "[2] NOMAD Repository (https://repository.nomad-coe.eu/), Material Genome Initiative (https://www.mgi.gov/)",
+          cite: "[3] D. Larbalestier, A. Gurevich, D. M. Feldmann, and A. Polyanskii, Nature 414, 368-377 (2001).",
+          cite: "[4] J. Greeley, T. Jaramillo, J. Bonde, I. Chorkendorff, and J. Nørskov, Nature Materials 1752, 10.1038 (2006).    "
+        ]
     }
     - {
         id: 4,
@@ -360,10 +368,10 @@
         id: 27,
         startTime: "14:40",
         endTime: "15:30",
-        title: "TBA",
+        title: "Emergence of quantum phases in Condensed Matter",
         speakerID: 8,
         content: [
-          para: "TBA",
+          para: "A fundamental feature of complex systems is the presence of emergent behaviors that are not properties of the individual components of the system but arise from their interactions and relations. In condensed matter, the collective behavior of electrons in solids give rise to many different unconventional quantum states of matter. Correlated systems are usually susceptible to external stimuli, and weak perturbations can result in a dramatic response, which makes them very interesting for technological applications. Magnetism, high-temperature superconductivity, the emergence of non- trivial topological properties are just few examples of this plethora of phenomena. Interestingly, many of these unconventional quantum phases arise from the cooperation/competition of interactions living on different energy scales: low-energy electronic excitations, well described by the so-called Fermi liquid theory, and high-energy interactions, coming from local Coulomb repulsion, and responsible for the Mott-Hubbard physics. In my talk I will introduce the concept of solid as quantum many-body system. I will review the fundamental aspects of: (i) the Fermi Liquid theory as the paradigmatic description of metallic systems (even the strongly correlated ones e.g. heavy fermions) and (ii) the Mott-Hubbard model in order to explain macroscopic effects of electronic correlations (e.g. the correlation-driven metal-insulator transition). After providing a brief overview of different cutting-edge problems in quantum materials that can be addressed via a generalized versions of the standard Mott-Hubbard scenario, I will discuss how the combination of different low-energy and high-energy approaches is a fundamental tool to extract the relevant degrees of freedom and to make order from complexity. If time allows I will discuss as a concrete example the case of the Iron-based unconventional superconductors. The analysis of electronic correlations in this systems is complicated by the multiorbital character of the electronic band structure close to the Fermi level. Despite the complexity, relevant information can be extracted using both low-energy and high-energy approaches. A clear result is the emergence of the orbital selectivity as the main feature of the system at all scales.",
         ],
     }          
     - {
@@ -485,10 +493,15 @@
         speakerlastname: "Tuovinen",
         speakercompany: "Max Planck Institute for the Structure and Dynamics of Matter",
         speakertitle: "PostDoc",
-        title: "TBA",
+        title: "Nonequilibrium Green's functions for dummies by a dummy",
         content: [
-          para: "TBA", 
+          para: "Nonequilibrium Green's function is a natural framework in studying transient dynamics at molecular level. In principle the key object is relatively simple, a function of two coordinates $G(xt, x't')$, encoding information such as electron density and current, total energy, and photoemission spectroscopy [1]. In practice, however, computation of this object by the Kadanoff-Baym equations can be a very demanding task [2]. The Generalized Kadanoff-Baym Ansatz offers a simplification by decomposing the two-time-propagation of the Green's function into the time-propagation of a time-local density matrix [3]. In the end, we want to evaluate a meaningful number for comparison with our experience of nature, so the practical value of any of these (or other computational) approaches can be measured by the accessibility and accuracy of this number. In this contribution, I wish to take a practical approach: i.e., how the elegantly written Keldysh-contour-equations in a textbook are actually broken apart when we want to calculate a number, and by using model Hamiltonians, relate that to e.g. transport or pump-probe type of practical problems.", 
         ],
+        references: [
+          cite: "[1] G. Stefanucci and R. van Leeuwen, Nonequilibrium Many-Body Theory of Quantum Systems: A Modern Introduction, (Cambridge University Press, Cambridge, 2013)",
+          cite: "[2] A. Stan, N. E. Dahlen, and R. van Leeuwen, ``Time propagation of the Kadanoff-Baym equations for inhomogeneous systems'', J. Chem. Phys. 130, 224101 (2009).",
+          cite: "[3] P. Lipavský, V. Špička, and B. Velický ``Generalized Kadanoff-Baym ansatz for deriving quantum transport equations'', Phys. Rev. B 34, 6933 (1986).",
+        ]
     }        
     - {
         id: 38,
@@ -511,9 +524,9 @@
         speakerlastname: "Penz",
         speakercompany: "Max Planck Institute for the Structure and Dynamics of Matter",
         speakertitle: "PostDoc",
-        title: "TBA",
+        title: "Quasi-particles leave the lab",
         content: [
-          para: "TBA", 
+          para: "Customarily quasi-particles are introduced as emergent phenomena in many-body quantum mechanics, but their application to explain complex effects in solids raises them to an equal ontological level as their fundamental counterparts. Both exhibit the same kind of existence within the respective theoretical description or area of application. And although the idea of quasi-particles usually stems from an underlying theory that is seen as fundamental, a simple reduction is barred by an exponential wall of complexity. Now if the real entities are considered always to be those of central significance within a field of research, suddenly a whole bunch of other quasi-objects emerge. Those are collective excitations on a much higher level of existence, like those of scientific and non-scientific staff, lab equipment and samples, journal articles and computer codes. Physics is thus embedded in a net of technological, economical, and social agents. This refutes the romantic picture of science as a mirror on nature and in turn raises questions about responsibility and possible ways of conduct in natural sciences.", 
         ],
     }    
     - {
@@ -532,7 +545,7 @@
         title: "Extra Notes",
         speakerID: 6,
         content: [
-          para: "TBA",
+          para: "The theoretical treatment of purely electronic systems differs from when the electrons interact with bosons. In the cases of electron-phonon, electron-photon, electron-magnon, etc., the electron-boson interaction does not conserve the boson particle number, and as such, the theoretical methods need to be appropriately adapted in coupled electron-boson systems. In many-body perturbation theory, however, the diagrammatic rules of uncoupled and coupled systems are very similar. I will focus on the fundamental reasons behind differences between the descriptions of the uncoupled and coupled cases but also stress the reasons for the similarities.  For example, what are the fundamental reasons why the screened interaction (GW) looks similar to the bosonic interaction (Migdal, Born approximation)? How does the equilibrium structure differ from the non-equilibrium one for the two cases? How does heat transport by phonons differ from electronic quantum transport?  I will discuss these questions, focusing mostly on the non-equilibrium Green's function approach. Using the language of modern many-body perturbation theory and so-called contour-ordered correlators, I will try to convey the message that there can be a single consistent formalism which can be applied to a multitude of classes of systems. ",
         ],
     }    
     - {
@@ -629,8 +642,17 @@
         title: "Fermion-boson systems in and out of equilibrium",
         speakerID: 9,
         content: [
-          para: "TBA",
+          para: "The interaction between the fermions and bosons is one of the cornerstone of the many-body physics, leading to intriguing states of matter including superconductivity, polaronic states with the strongly reduced mobility and the Bose-Einstein condensation of polaritons. I will start with a classification of electron-boson coupled systems in solids by the nature of the bosonic modes: either phonon, magnons or plasmons. In the following I will focus on the electrons coupled to a single Einstein mode and compare the relevant energy scales to map out the phase diagram, including the small/large polaron, the bipolaron and the superconducting phase. I will introduce the effective electronic description of the coupled system and the notion of screening and effective interactions. I will conclude the first part by a short introduction of available theoretical tool for a non-perturbative description. The role of bosonic modes out of equilibrium is twofold: either they serve as a heat bath or as a driving element modifying the effective electronic interaction. To exemplify the role of the heat bath I will describe the relaxation dynamics of the Holstein polaron after the photo-excitation and bring in the effect of a phonon window and its signatures in the time and angular resolved photo-emission spectroscopy (t-ARPES) [1]. The next example is given by the ultra-fast relaxation of the charge carriers in doped anti-ferromagnets and its possible application for the photo-voltaic effect in Mott insulating heterostructures [2]. The recent experimental progress of directly exciting phononic degrees of freedom has opened a new perspective to manipulate electronic properties of materials. The important examples includes the potential enhancement of superconductivity in cuprates and molecular solids [3]. I will present one of the minimal theoretical approaches addressing these scenarios and emphasize the role of heating in periodically driven systems [4]. A new perspective for electron-boson coupled systems is to explore the quantum nature of light in cavity-like setups or by measuring the statistical distribution of light in pump-probe setups [5]. First I will introduce the experimental realization of the exciton- polariton condensate [6]. I will start the theoretical description of the electron-photon coupled system by introducing different gauges and the dipolar approximation. I will continue with the basic model description for coupled systems and exemplify how the effective interaction between fermion can be manipulated by the modification of the cavity mode or via the coupling with the environment [7]. ",
         ],
+        references: [
+          cite: "[1] J.D. Rameau, et.al. Nat. Commun. 7, 13761(2016); DG, et.al. Phys. Rev. Lett., 109:236402 (2012); F. Dorfner, et. al. Phys. Rev. B. 91, 104302(2015) ",
+          cite: "[2] S. Dal Conte, et.al. Nat. Phys. 115,421-426(2015); M. Eckstein, et.al. Phys. Rev. Lett. 113:076405 (2014); DG, et.al. Phys. Rev. B. 89, 165118(2014) ",
+          cite: "[3] D. Fausti, et.al. Science 331-6014,189-191 (2011); M. Mitrano, et.al. Nature 530, 461-464(2016) ",
+          cite: "[4] Y. Murakami, et.al. Phys. Rev. B 96, 045125(2017); M. Babadi, et.al. Phys. Rev. B 96, 014512(2017) ",
+          cite: "[5] H. Ritsch, et.al. Rev. Mod. Phy. 85, 553(2012); R. Randi, et.al. Phys. Rev. Lett 119, 187403(2017)",
+          cite: "[6] J. Kasprzak, et.al Nature 443, 409-411(2006); ",
+          cite: "[7] S. Diehl, et.al. Nat. Phys. 4, 878(2008); F. Verstraete, et.al. Nat. Phys. 5, 663-636 (2009); O. Scarlatella, et.al. arXiv:1611.09378"  
+        ]
     } 
     - {
       id: 50,
