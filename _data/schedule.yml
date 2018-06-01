@@ -513,8 +513,8 @@
         speakertitle: "PostDoc",
         title: "How can Schrödinger's cat power a Carnot engine",
         content: [
-          para: "Quantum coherences seem to be a property that vanishes at thermodynamic equilibrium. Away from equilibrium, quantum coherences challenge the classical notions of a thermodynamic bath in a Carnot engines, affect the efficiency of quantum transport, lead to violations of Fourier's law, and can be used to dynamically control the temperature of a state. Here we show that the relative entropy of a state with quantum coherence with respect to its decohered state captures its deviation from thermodynamic equilibrium. As a result, changes in quantum coherence can lead to a heat flow with no associated temperature, and affect the entropy production rate. We demonstrate that in thermo-electric nanodevices. the current and heat flows are also controlled by observations. Depending on how and where the observation takes place, the direction of heat and particle currents can be independently controlled. In fact, we show that the current and heat flow in a quantum material can go against the natural temperature and voltage gradients. Dynamical quantum observation offers new possibilities for the control of quantum transport far beyond classical thermal reservoirs.", 
-        ],
+          para: "What happens if you use Schrödinger's cat to power a Carnot engine? Thermodynamic scales are about large baths defined by temperatures. Quantum mechanics is about small fluctuations in tiny scales. What happens when these to meet? What happens to the laws of thermodynamics in this regime? How does this affect transport, Carnot engines, quantum measurements, thermometry, decoherence, the Second Law and Schrödinger's cat? In this talk, I will show how I used basic concepts from information theory to provide one coherent way to conceptually think about all this, and will show examples of how quantum thermodynamics can go beyond the thermo we learned in the textbooks."
+       ],
     }    
     - {
         id: 39,
