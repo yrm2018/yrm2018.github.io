@@ -695,20 +695,17 @@
         id: 53,
         startTime: "12:20",
         endTime: "12:40",
-        speakername: "Teresa",
-        speakerlastname: "Reinhard",
+        speakername: "Shunsuke",
+        speakerlastname: "Sato",
         speakercompany: "Max Planck Institute for Structure and Dynamics of Matter",
         speakertitle: "PhD Student",
-        title: "Density matrix embedding theory for coupled fermion-boson systems",
+        title: "Conditional wavefunction approach for scattering process",
         content: [
-          para: "We analyze strongly correlated fermion-boson systems by extending Density Matrix Embedding Theory (DMET) from the purely electronic case [1,2] to coupled fermion-boson systems.",
-          para: "DMET is a novel embedding theory which benefits from the exponentially decaying correlation in most quantum systems. By using the Schmidt decomposition, we divide the treated system into an impurity and a bath part. We project the bath part into the part of the Fock space that contains the entanglement with the impurity region and then solve this much smaller entangled system with exact diagonalization and DMRG as impurity solver.",
-          para: "With this technique, we treat lattice systems of Hubbard-Holstein type, where fermions and bosons are coupled by a bilinear Froehlich coupling. As we choose coherent states for the bosonic basis set, it is convenient to apply our approach to electron-phonon as well as to electron-photon systems.",
-          para: "By using a DMRG solver for the DMET algorithm, an accurate treatment of 2 dimensional systems becomes feasible.", 
+          para: "The conditional wavefunction approach has been developed to describe electron-ion interactions [1]. The method relies on conditional decomposition of many-body wavefunctions and offers single-particle-like description with semi-classical trajectories. Despite its similarity to conventional mean-field theories, the conditional wavefunction approach may capture some correlation effects, which are absent in the mean-field treatment.",
+          para: "To assess the performance of the conditional wavefunction approach from a point view of correlation, we applied it to an electron scattering problem. We then found that, although the conventional mean-field method completely fails to describe the scattering problem due to the lack of correlation effects, the conditional wavefunction method fairly captures the scattering event. This result indicates that the description based on semi-classical trajectories can efficiently capture a part of correlation.",
         ],
         references: [
-          cite: "[1] G. Knizia, G. K.-L Chan, Phys. Rev. Lett 109, 186404, (2012).",
-          cite: "[2] S. Wouters, C. A. Jiménez-Hoyos, G. K.-L. Chan, arXiv:1605.05547 (2016).",
+          cite: "[1] G. Albareda, H. Appel, I. Franco, A. Abedi, A. Rubio, Phys. Rev. Lett. 113, 083003 (2014).",
         ]
     }   
     - {
