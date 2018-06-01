@@ -412,13 +412,12 @@
       endTime: "18:20",
       speakerlastname: "Dr. Sharon R. George, Swanand Marulkar, Aratrika Roy",
       speakername: " ",
-        speakercompany: "Springer Nature",
-        speakertitle: " ",
-        title: "Exploring pain points of researchers - an interactive session with SpringerMaterials",
-        content: [
-          para: "Harnessing the constantly growing materials data is a critical challenge for both experimental and computational researchers. Information tools and databases  can alleviate the problem of finding relevant information to some extent, however, published data is not always in usable formats and too cumbersome to work with. This interactive session is designed to explore the problems that computational researchers encounter when looking for information on scientific databases. Participants will work in groups to identify these pain points and give us their feedback to help us improve and develop SpringerMaterials."
-       ]
-      title: "SpringerMaterials Session",
+      speakercompany: "Springer Nature",
+      speakertitle: " ",
+      title: "Exploring pain points of researchers - an interactive session with SpringerMaterials",
+      content: [
+          para: "Harnessing the constantly growing materials data is a critical challenge for both experimental and computational researchers. Information tools and databases  can alleviate the problem of finding relevant information to some extent, however, published data is not always in usable formats and too cumbersome to work with. This interactive session is designed to explore the problems that computational researchers encounter when looking for information on scientific databases. Participants will work in groups to identify these pain points and give us their feedback to help us improve and develop SpringerMaterials.",
+       ],
       service: false,
       place: "CFEL",
     	sessionIds: [201]
