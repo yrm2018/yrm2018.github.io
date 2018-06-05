@@ -549,7 +549,9 @@
         id: 41,
         startTime: "14:30",
         endTime: "15:20",
-        title: "Extra Notes",
+        speakername: "Daniel",
+        speakerlastname: "Karlsson",
+        title: "Non-Equilibrium Green’s Functions for coupled fermion-boson systems",
         speakerID: 6,
         content: [
           para: "The theoretical treatment of purely electronic systems differs from when the electrons interact with bosons. In the cases of electron-phonon, electron-photon, electron-magnon, etc., the electron-boson interaction does not conserve the boson particle number, and as such, the theoretical methods need to be appropriately adapted in coupled electron-boson systems. In many-body perturbation theory, however, the diagrammatic rules of uncoupled and coupled systems are very similar. I will focus on the fundamental reasons behind differences between the descriptions of the uncoupled and coupled cases but also stress the reasons for the similarities.  For example, what are the fundamental reasons why the screened interaction (GW) looks similar to the bosonic interaction (Migdal, Born approximation)? How does the equilibrium structure differ from the non-equilibrium one for the two cases? How does heat transport by phonons differ from electronic quantum transport?  I will discuss these questions, focusing mostly on the non-equilibrium Green's function approach. Using the language of modern many-body perturbation theory and so-called contour-ordered correlators, I will try to convey the message that there can be a single consistent formalism which can be applied to a multitude of classes of systems. ",
